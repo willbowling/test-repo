@@ -118,8 +118,7 @@
 
 			    // Setup Nav.
 
-			    // $('li.nav-webmd').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
-			    $('li.nav-webmd').bind('touchend', function( event ) {
+			    $('li.nav-webmd').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
 			        $('#app-theheart,#app-medscape,#app-babyapp').hide();
 			        $('#app-webmd').show();
 			        $(this).addClass('selected').siblings().removeClass('selected');
