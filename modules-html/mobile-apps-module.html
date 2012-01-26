@@ -21,7 +21,7 @@
 				<div class="clearingDiv clearfix"></div>
 			</div>	
 			<div class="clearingDiv clearfix"></div>
-			<div class="download"><a class="oslink" href="">Download</a></div>
+			<div class="download"><a href="">Download</a></div>
 		</section>
 <!-- END Web MD App Content -->		
 
@@ -45,7 +45,7 @@
 				<div class="clearingDiv clearfix"></div>
 			</div>	
 			<div class="clearingDiv clearfix"></div>
-			<div class="download"><a class="oslink" href="">Download</a></div>
+			<div class="download"><a href="">Download</a></div>
 		</section>		
 <!-- END Baby App Content -->		
 
@@ -64,7 +64,7 @@
 				<div class="clearingDiv clearfix"></div>
 			</div>	
 			<div class="clearingDiv clearfix"></div>
-			<div class="download"><a class="oslink" href="#">Download</a></div>
+			<div class="download"><a href="#">Download</a></div>
 		</section>
 <!-- END TheHeart.org App Content -->		
 
@@ -89,7 +89,7 @@
 				<div class="clearingDiv clearfix"></div>
 			</div>	
 			<div class="clearingDiv clearfix"></div>
-			<div class="download"><a class="oslink" href="#">Download</a></div>
+			<div class="download"><a href="#">Download</a></div>
 		</section>		
 <!-- END Medscape App Content -->		
 
@@ -118,12 +118,14 @@
 
 			    // Setup Nav.
 
-			    $('li.nav-webmd').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
+			    // $('li.nav-webmd').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
+			    $('li.nav-webmd').bind('touchend', function( event ) {
 			        $('#app-theheart,#app-medscape,#app-babyapp').hide();
 			        $('#app-webmd').show();
 			        $(this).addClass('selected').siblings().removeClass('selected');
 			        dlAssign($('#app-webmd a').attr('href'));
-			        return wmdPageLink('mble-list_wbmd');
+			        wmdPageLink('mble-list_wbmd');
+			        return false;
 				});
 				$('li.nav-babyapp').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
 			        $('#app-theheart,#app-medscape,#app-webmd').hide();
