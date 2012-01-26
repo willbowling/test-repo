@@ -1,0 +1,1965 @@
+<webmd_rendition>
+    <content>
+        <wbmd_asset object_type="wbmd_pb_module" id="091e9c5e808b13da"
+            xmlns:xalan="http://xml.apache.org/xalan"
+            xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+            <webmd_module>
+                <module_settings>
+                    <chronic_id>091e9c5e808b13da</chronic_id>
+                    <r_object_id>091e9c5e808b13da</r_object_id>
+                    <title>td</title>
+                    <object_name>module_td_091e9c5e808b13da.xml</object_name>
+                    <object_type>wbmd_pb_module</object_type>
+                    <wbmd_pb_module_category/>
+                    <wbmd_pb_module_tier>0</wbmd_pb_module_tier>
+                    <wbmd_pb_cache_duration>1440</wbmd_pb_cache_duration>
+                    <r_modify_date>09/07/2011 16:22:05</r_modify_date>
+                    <wbmd_pb_asset_css
+                        path="/webmd/PageBuilder_Assets/CSS/TopicDirectoryIndex/Mobile - Dynamic Index/Mobile - Default_091e9c5e808a4f11.css"
+                        object_type="wbmd_pb_css" chronic_id="091e9c5e808a4f11"/>
+                    <wbmd_pb_module_xsl
+                        path="/webmd/PageBuilder_Assets/XSL/TopicDirectoryIndex/Mobile - Dynamic Index_091e9c5e808a4f10.xsl"
+                        object_type="wbmd_pb_xsl" chronic_id="091e9c5e808a4f10"/>
+                    <wbmd_pb_moduledataschema
+                        path="/webmd_uk/PageBuilder_Assets/schemas/module_schemas/TopicDirectoryIndex.xsd"
+                        object_type="wbmd_pb_schemas" chronic_id="091e9c5e80680963"/>
+                    <wbmd_pb_moduledataschema
+                        path="/webmd/PageBuilder_Assets/schemas/module_schemas/TopicDirectoryIndex.xsd"
+                        object_type="wbmd_pb_schemas" chronic_id="091e9c5e80680963"/>
+                    <wbmd_pb_owner_page_id
+                        path="/webmd/PageBuilder_Assets/scopemaps/WebMD_Mobile/Pages/Skin Problems Topic Directories Mobile CAP_091e9c5e808b1379/page_Skin Problems Topic Directories Mobile CAP_091e9c5e808b1379.xml"
+                        object_type="wbmd_pb_page" chronic_id="091e9c5e808b1379"/>
+                    <dnn_id>0</dnn_id>
+                    <class>TopicDirectoryIndex</class>
+                </module_settings>
+                <module_data/>
+            </webmd_module>
+        </wbmd_asset>
+    </content>
+    <friendlyurls/>
+    <referenced_objects/>
+    <container_hierarchy/>
+    <expanded_objects/>
+    <topic_dirs>
+        <topic_dir>
+            <name>Rashes</name>
+            <link_title>Rashes</link_title>
+            <description>A rash is a change in the skin due to skin irritation. Most rashes go away
+                on their own or require only minor treatment. Some rashes may need medical
+                attention. Some rash symptoms are redness, itching, bumps, redness, and swelling.
+                Some causes of rashes are allergic reactions; plants such as poison ivy; or
+                irritation due to jewelry, chemicals, or makeup. Rashes are also sometimes symptoms
+                of another condition, as with impetigo or scabies. Treatments vary based on the
+                cause, but many can be treated with medications. Follow the links below to find
+                WebMD's comprehensive coverage about what causes a rash, what it looks like, how to
+                treat it, and much more.</description>
+            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/rashes-directory</friendly_url>
+            <categories>
+                <category id="1006">
+                    <name>Medical Reference</name>
+                    <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/rashes-directory?catid=1006</friendly_url>
+                    <assets>
+                        <asset id="091e9c5e8001db90">
+                            <link_title>Ringworm of the Scalp or Beard-What Happens</link_title>
+                            <description>At first, ringworm of the scalp or beard may look like
+                                dandruff with flakes of dead skin on the hair or beard. There may be
+                                round or oval patches of baldness. The skin under the hair or beard
+                                may be itchy, red, and peeling. The infection can spread
+                                gradua</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-what-happens</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d3f4">
+                            <link_title>Pityriasis Rosea-Related Information</link_title>
+                            <description>Ringworm of the SkinSkin ChangesTinea Versicolor
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/pityriasis-rosea-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e77e">
+                            <link_title>Skin Changes-Home Treatment</link_title>
+                            <description>Most bumps, spots, growths, or moles do not need any type
+                                of home treatment.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/skin-changes-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e76b">
+                            <link_title>Rash, Age 12 and Older-Home Treatment</link_title>
+                            <description>Most rashes will go away without medical
+                                treatment.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/rash-age-12-and-older-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e49e">
+                            <link_title>Skin Changes-Check Your Symptoms</link_title>
+                            <description>...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/skin-changes-check-your-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80212433">
+                            <link_title>Allergy: Poison Ivy, Oak, and Sumac Treatment</link_title>
+                            <description>More than half the people in the United States are
+                                sensitive to poison ivy, poison oak, and poison sumac. If you are
+                                sensitive, you can develop an itchy, blistering rash
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/allergy-poison-ivy-oak-and-sumac-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007bf3">
+                            <link_title>Common Skin Rashes</link_title>
+                            <description>The the basics on some common types of skin rashes,
+                                including eczema, granuloma annulare, lichen planus, and pityriasis
+                                rosea.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/common-rashes</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8061b04a">
+                            <link_title>Stages of Lyme Disease-Topic Overview</link_title>
+                            <description>Lyme disease can develop in several stages. It may cause
+                                different symptoms,depending on how long you have been infected and
+                                where in your body the infection has spread. Early localized Lyme
+                                disease develops days to weeks after you become infected. An
+                                expanding,circular red rash (erythema migrans) is the most common
+                                sign of early Lyme disease. Flu-like symptoms such as
+                                fever,chills,and ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/tc/stages-of-lyme-disease-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d430">
+                            <link_title>Roseola-Related Information</link_title>
+                            <description>Fever SeizuresRash, Age 11 and Younger ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/roseola-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e47b">
+                            <link_title>Skin Rash or Rashes - Causes, Types and Treatments of Skin
+                                Rashes</link_title>
+                            <description>Rash is generally caused by a skin irritation that can
+                                result from an allergy, infection, or skin problem like eczema or
+                                psoriasis.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/rash-age-12-and-older-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e4e4">
+                            <link_title>Rash, Age 12 and Older-Related Information</link_title>
+                            <description>A list of topics related to rash in people age 12 and
+                                older.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/rash-age-12-and-older-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d94e">
+                            <link_title>Poison Ivy, Oak, or Sumac-Topic Overview</link_title>
+                            <description>Poison ivy, poison oak, and poison sumac are plants that
+                                can cause a skin rash called allergic contact dermatitis upon
+                                contact. Learn more.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dee7">
+                            <link_title>Poison Ivy, Oak, or Sumac-Prevention</link_title>
+                            <description>Only the oil (urushiol) from poison ivy, oak, or sumac
+                                plants can cause a rash (allergic contact dermatitis). The best way
+                                to avoid contact with urushiol and developing a rash is to avoid the
+                                plants. Learn to recognize these plants, especially those
+                                near</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e1e2">
+                            <link_title>Poison Ivy, Oak, or Sumac-Medications</link_title>
+                            <description>Learn about medications to treat poison ivy, oak and
+                                sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-medications</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80019e2e">
+                            <link_title>Eczema</link_title>
+                            <description>This information is provided as a resource and does not
+                                constitute an endorsement for any group. It is the responsibility of
+                                the reader to decide whether a group is appropriate for his/her
+                                needs. For evidence - based information on diseases, conditions,
+                                symptoms, treatment and wellness issues, continue searching this
+                                site. ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/eczema-9542</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8042e6ca">
+                            <link_title>Picture of Vitiligo on Neck</link_title>
+                            <description>Vitiligo. These are more illustrations of fairly extensive
+                                cases of vitiligo. The condition tends to progress and may even
+                                become universal. A variety of treatment modalities are commonly
+                                employed, with varying degrees of success. The patient and family
+                                should be made aware of the sophisticated cover-up cosmetics that
+                                are now available. The use of broad-spectrum sunscreen lotions
+                                during the summer months minimizes the con- trast between normal and
+                                involved skin. For some patients, the application of topical
+                                corticosteroids alone or with brief natural sunlight exposure early
+                                in the course of the disease may induce repigmentation. Narrowband
+                                UUB is also an effective treatment. Varying combinations of topical
+                                or oral psoralens and ultraviolet A light (PUVA) are used in the
+                                treatment of vitiligo.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-vitiligo-neck</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8042cbe9">
+                            <link_title>Picture of Milia</link_title>
+                            <description>Milia. A milium is a white papule, 1–2 mm in size, composed
+                                of laminated, keratinous material and situated as a solid cyst in a
+                                pilosebaceous follicle. Milia are fairly common on the brow,
+                                glabella, and nose in newborn infants and in such infants tend to
+                                disappear quickly and spontaneously. There may be few or many, and
+                                they may develop later in infancy, in childhood, and in adolescence.
+                                In older children and adolescents, they tend to macules may be
+                                sparse or numerous and resolve without residua over a period of
+                                several weeks to several months.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-milia</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80438876">
+                            <link_title>Picture of Seabather's Itch</link_title>
+                            <description>Seabather's itch. Erythematous papules on the unexposed
+                                areas of a swimmer.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-seabathers-itch</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80435659">
+                            <link_title>Picture of Folliculitis</link_title>
+                            <description>Folliculitis. Scattered follicular-based erythematous
+                                papules and pustules.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-folliculitis</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e804389a1">
+                            <link_title>Picture of Systemic Lupus Erythematosus</link_title>
+                            <description>Systemic lupus erythematosus. Erythematous, edematous
+                                plaques in a "butterfly distribution on the face" on the
+                                face.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-systemic-lupus-erythematosus-face</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80436ce0">
+                            <link_title>Picture of Morbilliform Drug Eruption</link_title>
+                            <description>Drug hypersensitivity reaction. Morbilliform rash on the
+                                trunk occuring 1 week after the administration of a systemic
+                                cephalosporin.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-morbilliform-rash</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800083ce">
+                            <link_title>Diagnosing and Treating Eczema</link_title>
+                            <description>The experts at WebMD give you basic information on the
+                                diagnosis and treatment of atopic eczema, a common skin
+                                condition.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-eczema-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000837a">
+                            <link_title>Eczema Prevention</link_title>
+                            <description>Read about the prevention of eczema, a common skin
+                                condition especially in infants.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-eczema-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80010d8c">
+                            <link_title>Life-Threatening Skin Rashes</link_title>
+                            <description>Life-threatening skin rashes are rare, but when they do
+                                occur, you must identify them and go to a doctor
+                                quickly.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/life-threatening-skin-rashes</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802116e6">
+                            <link_title>Life-Threatening Skin Rashes Treatment</link_title>
+                            <description>Rashes are very common conditions and can have many causes.
+                                Most rashes are not dangerous but rather are merely nuisance
+                                illnesses. Life-threatening skin rashes are rare, but when they do
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/life-threatening-skin-rashes-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80422805">
+                            <link_title>Picture of Scurvy</link_title>
+                            <description>Scurvy. Perifollicular hemorrhage on the leg. The follicles
+                                are often plugged by keratin (perifollicular hyperkeratosis). This
+                                eruption occurred in a 46-year-old alcoholic, homeless male, who
+                                also had bleeding gums and loose teeth.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/picture-of-scurvy-perifollicular</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f161c">
+                            <link_title>Picture of Psoriasis</link_title>
+                            <description>Unpredictable and irritating, psoriasis is one of the most
+                                baffling and persistent of skin disorders. It's characterized by
+                                skin cells that multiply up to 10 times faster than normal. As
+                                underlying cells reach the skin's surface and die, their sheer
+                                volume causes raised, red plaques covered with white
+                                scale.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-psoriasis</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000823c">
+                            <link_title>Poison Ivy, Oak, &amp; Sumac Symptoms</link_title>
+                            <description>Read about the symptoms caused by poison ivy, poison oak,
+                                and poison sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-poison-ivy-oak-sumac-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f078e">
+                            <link_title>Picture of Shingles (Herpes Zoster)</link_title>
+                            <description>Shingles (herpes zoster) results from a reactivation of the
+                                virus that also causes chickenpox. With shingles, the first thing
+                                you may notice is a tingling sensation or pain on one side of your
+                                body or face. Painful skin blisters then erupt on only one side of
+                                your face or body along the distribution of nerves on the
+                                skin.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/picture-of-shingles-herpes-zoster</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000835c">
+                            <link_title>Symptoms of Lyme Disease</link_title>
+                            <description>Learn the symptoms of Lyme disease from the experts at
+                                WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-lyme-disease-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800081aa">
+                            <link_title>Impetigo Symptoms</link_title>
+                            <description>Impetigo can be mistaken for other types of skin rashes.
+                                Learn about the signs and symptoms from WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-impetigo-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8052b97f">
+                            <link_title>Nickel (Jewelry) Allergies: Symptoms, Treatments, and
+                                Avoiding Triggers</link_title>
+                            <description>WebMD explains why some people are allergic to nickel, as
+                                well as symptoms, causes, and treatments for this
+                                allergy.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/nickel-jewelry-allergy</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80008970">
+                            <link_title>Understanding Ringworm &#45;&#45; Diagnosis and
+                                Treatment</link_title>
+                            <description>From symptoms to treatment to prevention, get the basics on
+                                ringworm from the experts at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-ringworm-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d8e2">
+                            <link_title>Ringworm of the Scalp or Beard-Medications</link_title>
+                            <description>Antifungal medicine (pills or liquid) and shampoo used
+                                together are most effective in curing ringworm of the scalp and
+                                beard. Depending on the medication, antifungal pills are usually
+                                taken for 4 to 12 weeks.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-medications</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001db4b">
+                            <link_title>Ringworm of the Scalp or Beard-Home Treatment</link_title>
+                            <description>You usually treat ringworm of the scalp or beard with
+                                antifungal pills prescribed by a doctor. Shampoos available without
+                                a prescription are helpful if you use them along with prescription
+                                pills, but when they are used alone, they cannot completely
+                                destro</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dab5">
+                            <link_title>Ringworm of the Scalp or Beard-Prevention</link_title>
+                            <description>To prevent ringworm of the scalp or beard: Keep your skin
+                                clean and dry. Do not share hats, combs, or brushes with others.
+                                Children should use their own combs and brushes and should not share
+                                with other family members. Shampoo once a month with a
+                                shampoo</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d9c0">
+                            <link_title>Ringworm of the Scalp or Beard-Treatment
+                                Overview</link_title>
+                            <description>You treat ringworm of the scalp or beard with antifungal
+                                pills in combination with antifungal shampoo or lotion. Topical
+                                antifungal medications, such as shampoos or lotions that you apply
+                                directly to the infected area, do not work when used alone
+                                because</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-treatment-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dd16">
+                            <link_title>Ringworm of the Scalp or Beard-Exams and Tests</link_title>
+                            <description>Doctors can often easily recognize ringworm when there is a
+                                distinct ringworm - patterned rash. Your doctor will probably also
+                                look at a hair or skin sample (KOH preparation) under a microscope
+                                to determine whether a fungus is present.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-exams-and-tests</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e0bf">
+                            <link_title>Ringworm of the Scalp or Beard-When To Call a
+                                Doctor</link_title>
+                            <description>Call your doctor if you suspect you have ringworm of the
+                                scalp or beard, and: The skin on your scalp or beard area is
+                                scaling, peeling, itchy, red, or has swollen areas and blisterlike
+                                bumps with pus. Or you have hair loss that occurs in
+                                patches.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-when-to-call-a-doctor</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001de15">
+                            <link_title>Ringworm of the Scalp or Beard-What Increases Your
+                                Risk</link_title>
+                            <description>Factors that increase the risk of ringworm include: Being
+                                susceptible to fungal infection or having had a previous fungal
+                                infection on the scalp, beard, or other areas. And having an
+                                impaired immune system (due to diseases, such as diabetes or
+                                cancer).</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-what-increases-your-risk</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e335">
+                            <link_title>Ringworm of the Scalp or Beard-Symptoms</link_title>
+                            <description>Most commonly, ringworm appears as one or more round or
+                                oval patches of baldness or scaly skin on the scalp or beard.
+                                Typically, the circular patches spread along their outer borders
+                                while clearing at the center, giving a ringed appearance and the
+                                name "r</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e182">
+                            <link_title>Ringworm of the Scalp or Beard-Cause</link_title>
+                            <description>Ringworm infection is caused by a fungus. Fungi that cause
+                                ringworm live and multiply on the upper layer of the skin and on the
+                                hair. Ringworm is not caused by a worm or other parasite. Ringworm
+                                of the scalp is most commonly caused by the fungus
+                                Trichophy</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-cause</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e0b8">
+                            <link_title>Ringworm of the Scalp or Beard-Topic Overview</link_title>
+                            <description>Is this topic for you? This topic is about ringworm of the
+                                scalp or beard. For information about other fungal infections, see
+                                the topics Athlete's Foot, Diaper Rash, Fungal Nail Infections, and
+                                Ringworm of the Skin. What is ringworm of the scalp or
+                                beard?</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dd5c">
+                            <link_title>Ringworm of the Skin-Medications</link_title>
+                            <description>Most ringworm infections of the skin can be treated at home
+                                with nonprescription antifungal creams. The rash will usually
+                                improve within 2 weeks. However, most antifungals need to be used
+                                for 2 to 4 weeks. If the rash does not improve after you have
+                                used</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-medications</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001da40">
+                            <link_title>Ringworm of the Skin-Home Treatment</link_title>
+                            <description>In most cases, you can treat ringworm of the skin with
+                                antifungal creams or ointments. Many are available without a
+                                prescription. Use a nonprescription antifungal cream with miconazole
+                                or clotrimazole in it. Brand names include Micatin, Tinactin,
+                                Monistat</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d847">
+                            <link_title>Ringworm of the Skin-Prevention</link_title>
+                            <description>To prevent ringworm of the skin: Keep your skin clean and
+                                dry. Change your socks and underwear at least once a day. Wear loose
+                                - fitting cotton clothing. Avoid tight underwear, pants, and panty
+                                hose. Always dry yourself completely after showers or
+                                baths.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001de05">
+                            <link_title>Ringworm of the Skin-Treatment Overview</link_title>
+                            <description>Most cases of ringworm of the skin, including jock itch and
+                                ringworm of the hand, can be treated with creams or ointments that
+                                you put on your skin to kill fungi. These are called topical
+                                antifungals. Many topical antifungals are available without a
+                                presc</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-treatment-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d834">
+                            <link_title>Ringworm of the Skin-Exams and Tests</link_title>
+                            <description>Doctors often can easily recognize ringworm by its ring -
+                                shaped rash. Your doctor will probably also look at a skin sample
+                                (KOH preparation) under a microscope to confirm that fungus is
+                                present.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-exams-and-tests</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e0f5">
+                            <link_title>Ringworm of the Skin-When To Call a Doctor</link_title>
+                            <description>If you suspect you have ringworm of the skin, call your
+                                doctor if:You have patches of skin that are itchy, red, or scaly
+                                with bumps that look like blisters, and they have not improved after
+                                2 weeks of treatment with a nonprescription antifungal
+                                product.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-when-to-call-a-doctor</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dd86">
+                            <link_title>Ringworm of the Skin-What Increases Your Risk</link_title>
+                            <description>Your risk of getting ringworm is higher if: You come in
+                                contact with a person who has a fungal infection or with a carrier -
+                                a person who has the fungi but does not have symptoms.You are
+                                susceptible to fungal infections or you have had a previous fungal
+                                i</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-what-increases-your-risk</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d8be">
+                            <link_title>Ringworm of the Skin-What Happens</link_title>
+                            <description>Ringworm of the skin can start as a small patch of itchy,
+                                red, or scaling skin. The rash can spread and cover a large area.
+                                Clothing that rubs the skin can irritate the rash. Sweat, heat, or
+                                moisture in the air (humidity) can make the itching and
+                                infectio</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-what-happens</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e41e">
+                            <link_title>Ringworm of the Skin-Symptoms</link_title>
+                            <description>Most ringworm infections cause a rash that may be peeling,
+                                cracking, scaling, itching, red, or have bumps on the edges that
+                                look like blisters. See an illustration of a typical ringworm skin
+                                rash. Symptoms of ringworm of the body include a rash.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e1d4">
+                            <link_title>Ringworm of the Skin-Cause</link_title>
+                            <description>Ringworm infection is caused by a fungus. Fungi (plural of
+                                fungus) that cause ringworm live and multiply on the outer layer of
+                                skin. Ringworm is not caused by a worm or other parasite. Fungi are
+                                present everywhere in our environment.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-cause</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001ae76">
+                            <link_title>Fifth Disease-Home Treatment</link_title>
+                            <description>For normally healthy people, home treatment for fifth
+                                disease consists of taking measures to stay comfortable until
+                                symptoms go away.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/fifth-disease-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80107189">
+                            <link_title>Fifth Disease-Related Information</link_title>
+                            <description>This list of topics is related to Fifth
+                                Disease.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/fifth-disease-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001adc8">
+                            <link_title>Fifth Disease-Treatment Overview</link_title>
+                            <description>For normally healthy people, home treatment (including
+                                rest, fluids, and pain relievers) is usually the only care needed
+                                for fifth disease.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/fifth-disease-treatment-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001ad23">
+                            <link_title>Fifth Disease-Symptoms</link_title>
+                            <description>Early symptoms of fifth disease are similar to the flu. A
+                                characteristic rash follows several days later, and some people
+                                develop joint pain.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/fifth-disease-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001acab">
+                            <link_title>Fifth Disease-Topic Overview</link_title>
+                            <description>Fifth disease, or erythema infectiosum, is a contagious
+                                viral illness that is much more common in children than
+                                adults.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/fifth-disease-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001cffd">
+                            <link_title>Dry Skin and Itching-Prevention</link_title>
+                            <description>The following information may help you to prevent dry skin
+                                and itching:Avoid showers. They strip the natural oil that helps the
+                                skin hold in moisture. Baths are much kinder to the skin than
+                                showers are.Use bath oils in the tub. (Be careful, because bath oil
+                                will make the tub slippery.)Use mild soaps, such as Dove or
+                                Cetaphil.Use a moisturizing lotion immediately after your bath.
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/dry-skin-and-itching-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e53b">
+                            <link_title>Diaper Rash-Prevention</link_title>
+                            <description>The following simple steps can help prevent diaper rash.
+                                Always wash your hands and your child's hands thoroughly before and
+                                after each diaper change. Change diapers or incontinence briefs as
+                                soon as possible after they become soiled or wet.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/diaper-rash-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e454">
+                            <link_title>Skin Changes-Related Information</link_title>
+                            <description>A list of topics related to skin changes.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/skin-changes-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e68b">
+                            <link_title>Skin Changes-Preparing For Your Appointment</link_title>
+                            <description>A list of questions that will help your health care
+                                professional diagnose and treat Skin Changes.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/skin-changes-preparing-for-your-appointment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e69f">
+                            <link_title>Skin Changes-Prevention</link_title>
+                            <description>Most noncancerous skin bumps, spots, and growths cannot be
+                                prevented. However, there are steps you can take to help prevent
+                                some skin problems.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/skin-changes-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e61a">
+                            <link_title>Skin Changes-Topic Overview</link_title>
+                            <description>Most skin bumps, spots, growths, and moles are harmless.
+                                Colored skin spots, also called pigmented lesions (such as freckles,
+                                moles, or flesh - colored skin spots).</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/skin-changes-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e5fb">
+                            <link_title>Scalp Problems-Preparing For Your Appointment</link_title>
+                            <description>A list of questions that will help your health care
+                                professional diagnose and treat Scalp Problems.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/scalp-problems-preparing-for-your-appointment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e7c4">
+                            <link_title>Scalp Problems-Prevention</link_title>
+                            <description>Tips to help prevent scalp problems.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/scalp-problems-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e58c">
+                            <link_title>Scalp Problems-Home Treatment</link_title>
+                            <description>Tips on home treatment to help resolve a scalp
+                                problem.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/scalp-problems-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8005cfe2">
+                            <link_title>Allergic Reaction-Home Treatment</link_title>
+                            <description>Follow these tips to help relieve symptoms of an allergic
+                                reaction.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/guide/allergic-reaction-home-treatment-options</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e4dd">
+                            <link_title>Rash, Age 11 and Younger-Home Treatment</link_title>
+                            <description>Most rashes will clear up without medical treatment. Home
+                                treatment can often relieve discomfort and itching until the rash
+                                goes away.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/rash-age-11-and-younger-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e654">
+                            <link_title>Rash, Age 11 and Younger-Topic Overview</link_title>
+                            <description>Healthy skin provides a barrier between the inside of the
+                                body and the outside environment. A rash indicates an abnormal
+                                change in the skin.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/rash-age-11-and-younger-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80490672">
+                            <link_title>Dermatitis,Atopic</link_title>
+                            <description>Atopic dermatitis is a common chronic inherited form of
+                                eczema. Eczema is a skin condition characterized by redness,swelling
+                                (edema),oozing,crusting,scaling,burning pain,and itching (pruritus).
+                                Scratching or rubbing eczema may lead to thickening and marking of
+                                the skin (lichenification). The causes of eczema fall into two
+                                classifications: 1) constitutional eczema (atopic dermatitis),and
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/dermatitis-atopic</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001eefd">
+                            <link_title>Lichen Planus</link_title>
+                            <description>Important It is possible that the main title of the report
+                                Lichen Planus is not the name you expected. Please check the
+                                synonyms listing to find the alternate name(s) and disorder
+                                subdivision(s) covered by this report. ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/lichen-planus</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001ed71">
+                            <link_title>Vitiligo</link_title>
+                            <description>Important It is possible that the main title of the report
+                                Vitiligo is not the name you expected. Please check the synonyms
+                                listing to find the alternate name(s) and disorder subdivision(s)
+                                covered by this report. ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/vitiligo-11060</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800b09e0">
+                            <link_title>Eczema Home Treatment</link_title>
+                            <description>Eczema home treatment can help heal and soothe irritated
+                                skin from all types of eczema (atopic dermatitis). Here you'll find
+                                a list of eczema home remedies.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/eczema_home_treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800082f1">
+                            <link_title>The Basics of Eczema and Your Skin</link_title>
+                            <description>Eczema is term for a group of medical conditions that cause
+                                the skin to become inflamed or irritated. Learn about the causes,
+                                symptoms, treatment, and prevention of eczema here.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/atopic-dermatitis-eczema</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800b0c4d">
+                            <link_title>Eczema Types</link_title>
+                            <description>From nummular eczema to atopic dermatitis, learn more about
+                                the different types of eczema.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/eczema_types</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e742">
+                            <link_title>Scalp Problems-Topic Overview</link_title>
+                            <description>Many people have hair or scalp problems. Hair may thin or
+                                fall out, break off, or grow slowly. Dandruff or an itching or
+                                peeling scalp may cause embarrassment and discomfort.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/scalp-problems-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007bf5">
+                            <link_title>Food Allergies and Your Skin</link_title>
+                            <description>Learn the symptoms of a food allergy and what to do about
+                                them.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/food-allergies</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001defc">
+                            <link_title>Poison Ivy, Oak, or Sumac-What Increases Your
+                                Risk</link_title>
+                            <description>People in certain jobs or with outdoor hobbies have an
+                                increased risk for contact with poison ivy, oak, or sumac and the
+                                resulting rash (allergic contact dermatitis). These people include:
+                                Landscapers. Forest firefighters and forestry workers.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-what-increases-your-risk</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000ae99">
+                            <link_title>Diaper Rash</link_title>
+                            <description>Diaper rash is a skin eruption that appears on the skin
+                                under a diaper; the rash typically occurs in infants and children
+                                younger than 2 years, but also afflicts those who are incontinent or
+                                paralyzed.</description>
+                            <friendly_url>http://www.m.webmd.com/children/guide/diaper-rash</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80012577">
+                            <link_title>Learn More About Drug Allergies</link_title>
+                            <description>Many drugs can cause adverse side effects, and certain
+                                medicines can trigger allergic reactions.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/drug-allergies</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001258d">
+                            <link_title>Skin Testing for Allergies</link_title>
+                            <description>Skin testing for allergies is used to identify the
+                                substances that are causing your allergy symptoms. Find out how the
+                                test is done.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/guide/skin-test</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007ea8">
+                            <link_title>An Overview of Drug Allergies</link_title>
+                            <description>Do you have a drug allergy? Learn more about them from the
+                                experts at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/guide/allergies-medications</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e135">
+                            <link_title>Food Allergies-Cause</link_title>
+                            <description>Learn about food allergies that occur when the body's
+                                immune system overreacts to substances in food you have eaten,
+                                triggering an allergic reaction.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/food-allergies-cause</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001db6b">
+                            <link_title>Food Allergies-Exams and Tests</link_title>
+                            <description>Information on food allergy tests.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/food-allergies-exams-and-tests</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e702">
+                            <link_title>Diaper Rash-Check Your Symptoms</link_title>
+                            <description>If your child is experiencing diaper rash, check the
+                                symptoms here to determine if medical treatment is
+                                needed.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/diaper-rash-check-your-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e4e0">
+                            <link_title>Rash, Age 11 and Younger-Check Your Symptoms</link_title>
+                            <description>...</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/rash-age-11-and-younger-check-your-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e656">
+                            <link_title>Rash, Age 12 and Older-Check Your Symptoms</link_title>
+                            <description>Check your rash symptoms to find out if you need medical
+                                treatment.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/rash-age-12-and-older-check-your-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e48e">
+                            <link_title>Scalp Problems-Check Your Symptoms</link_title>
+                            <description>This tool will help you check symptoms of scalp
+                                problems.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/scalp-problems-check-your-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80218082">
+                            <link_title>Hives and Angioedema Treatment</link_title>
+                            <description>Hives is an allergic skin reaction that comes on suddenly.
+                                The hives themselves are slightly raised, smooth, flat-topped bumps
+                                called wheals (look like mosquito bites) and welts that are usually
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/hives-and-angioedema-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80218076">
+                            <link_title>Drug Allergy Treatment</link_title>
+                            <description>Drug allergies can vary from mild to very serious. Find out
+                                how they should be treated and when you should call an
+                                ambulance.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/drug-allergy-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80212419">
+                            <link_title>Allergic Reaction Treatment</link_title>
+                            <description>When does an allergic reaction require a trip to the
+                                hospital? And how are they treated? Find out more.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/allergic-reaction-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80008733">
+                            <link_title>The Basics of Ringworm</link_title>
+                            <description>Get the basics on ringworm symptoms, treatment, causes, and
+                                prevention.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-ringworm-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800092a8">
+                            <link_title>The Basics of Impetigo</link_title>
+                            <description>What do you know about impetigo? Learn more about this
+                                contagious skin infection from WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-impetigo-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d3cf">
+                            <link_title>Heat Rash-Topic Overview</link_title>
+                            <description>What is heat rash?Heat rash (prickly heat) is a red or pink
+                                rash usually found on body areas covered by clothing. It can develop
+                                when the sweat ducts become blocked and swell and often leads to
+                                discomfort and itching. Heat rash is most common in babies, but may
+                                affect adults in hot, humid climates.What causes heat rash?In
+                                babies, heat rash can be caused by well - meaning parents who dress
+                                their ..</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/heat-rash-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800083a8">
+                            <link_title>The Basics of Poison Ivy, Oak, &amp; Sumac</link_title>
+                            <description>WebMD discusses the cause of reactions to poison ivy, oak,
+                                and sumac, what to expect if you come into contact with these
+                                plants, and how to treat the rash.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/understanding-poison-ivy-oak-sumac-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007e29">
+                            <link_title>Your Skin, Pruritus, and Itching</link_title>
+                            <description>Learn about pruritus, a term for itching, and the skin
+                                conditions it is linked to.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/skin-conditions-pruritus</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000714f">
+                            <link_title>Hyperpigmentation, Hypopigmentation, and Your
+                                Skin</link_title>
+                            <description>Pigmentation is the coloring of a person's skin. When a
+                                person is sick or injured, skin color may change, becoming darker
+                                (hyperpigmentation) or lighter (hypopigmentation). Get the facts
+                                here.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/hyperpigmentation-hypopigmentation</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80010a29">
+                            <link_title>Contact Dermatitis</link_title>
+                            <description>Contact dermatitis is a localized rash or irritation of the
+                                skin caused by contact with a foreign substance.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/contact-dermatitis</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8010fda3">
+                            <link_title>Treatments for Poison Ivy, Oak, &amp; Sumac</link_title>
+                            <description>WebMD gives you information about the treatment options for
+                                poison ivy, poison oak, and poison sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-poison-ivy-oak-sumac-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000783e">
+                            <link_title>The Basics on Fifth Disease</link_title>
+                            <description>Learn about fifth disease, a contagious viral condition
+                                that's more common in kids than adults.</description>
+                            <friendly_url>http://www.m.webmd.com/children/understanding-fifth-disease-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d700">
+                            <link_title>Skin care for atopic dermatitis</link_title>
+                            <description>Key pointsGood skin care is an essential part of
+                                controlling the itch and rash of atopic dermatitis. To help prevent
+                                a cycle of worsening itch, scratching, and rash, you can:Keep your
+                                skin hydrated and avoid dry skin.Avoid skin irritants. What is
+                                atopic dermatitis? Why is skin care important? How do I take care of
+                                my skin? Where can I learn more about skin care for atopic
+                                dermatitis?Return to ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/skin-care-for-atopic-dermatitis</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e4b9">
+                            <link_title>Scalp Problems-Related Information</link_title>
+                            <description>A list of topics related to scalp problems.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/scalp-problems-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d4b3">
+                            <link_title>Roseola-Topic Overview</link_title>
+                            <description>What is roseola?Roseola (roseola infantum) is a mild
+                                illness caused by a virus. It is generally harmless and is most
+                                common in children 6 months to 2 years of age. It is rare after age
+                                4. What causes roseola?Roseola is caused by two common viruses. The
+                                viruses belong to the family of herpes viruses, but they do not
+                                cause the cold sores or genital infections that herpes simplex
+                                viruses can ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/roseola-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d80e">
+                            <link_title>Ringworm of the Skin-Other Places To Get Help</link_title>
+                            <description>A list of resources for information on the topic of
+                                ringworm.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-other-places-to-get-help</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d8e1">
+                            <link_title>Ringworm of the Scalp or Beard-Related
+                                Information</link_title>
+                            <description>Information related to Ringworm of the scalp or
+                                beard.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e0b5">
+                            <link_title>Ringworm of the Scalp or Beard-Other Places To Get
+                                Help</link_title>
+                            <description>A list of resources for information on
+                                Ringworm.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-scalp-or-beard-other-places-to-get-help</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e7d2">
+                            <link_title>Rash, Age 12 and Older-Prevention</link_title>
+                            <description>Tips to help prevent rashes in people age 12 and
+                                older.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/rash-age-12-and-older-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e5cd">
+                            <link_title>Rash, Age 12 and Older-Preparing For Your
+                                Appointment</link_title>
+                            <description>A list of questions that will help your health care
+                                professional diagnose and treat Rash in Children Aged 12 and
+                                Older.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/rash-age-12-and-older-preparing-for-your-appointment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e7b6">
+                            <link_title>Rash, Age 11 and Younger-Related Information</link_title>
+                            <description>A list of topics related to rash in children age 11 and
+                                younger.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/rash-age-11-and-younger-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e438">
+                            <link_title>Rash, Age 11 and Younger-Prevention</link_title>
+                            <description>Tips to help prevent rashes in children age and
+                                younger.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/rash-age-11-and-younger-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e593">
+                            <link_title>Rash, Age 11 and Younger-Preparing For Your
+                                Appointment</link_title>
+                            <description>A list of questions that will help your health care
+                                professional diagnose and treat Rash in Children Aged 11 and
+                                Younger.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/rash-age-11-and-younger-preparing-for-your-appointment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e221">
+                            <link_title>Poison Ivy, Oak, or Sumac-When To Call a Doctor</link_title>
+                            <description>Call a health professional if: The rash (allergic contact
+                                dermatitis) from poison ivy, oak, or sumac causes great discomfort
+                                that is not relieved by home treatment (for instance, you apply
+                                calamine lotion to the rash.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-when-to-call-a-doctor</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001db78">
+                            <link_title>Poison Ivy, Oak, or Sumac-What Happens</link_title>
+                            <description>Contact with poison ivy, oak, or sumac can cause a rash
+                                (allergic contact dermatitis). The rash is caused by contact with
+                                the oil (urushiol) in these plants. Urushiol is an allergen, so the
+                                rash is actually an allergic reaction to the oil in these
+                                plants.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-what-happens</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d775">
+                            <link_title>Poison Ivy, Oak, or Sumac-Treatment Overview</link_title>
+                            <description>Learn about home treatment for mild rash from poison ivy,
+                                oak, or sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-treatment-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e207">
+                            <link_title>Poison Ivy, Oak, or Sumac-Symptoms</link_title>
+                            <description>Learn the most common symptoms of the rash (allergic
+                                contact dermatitis) from poison ivy, oak, or sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e2d2">
+                            <link_title>Poison Ivy, Oak, or Sumac-Surgery</link_title>
+                            <description>There are no surgical treatments for a poison ivy, oak, or
+                                sumac rash.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-surgery</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dae0">
+                            <link_title>Poison Ivy, Oak, or Sumac-Related Information</link_title>
+                            <description>Get information on conditions related to poison ivy, oak,
+                                or sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dc58">
+                            <link_title>Poison Ivy, Oak, or Sumac-Other Treatment</link_title>
+                            <description>Some cultures, including certain Native American cultures,
+                                have used homeopathic treatment for poison ivy, oak, or sumac as a
+                                means of preventing the rash (allergic contact
+                                dermatitis).</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-other-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dd95">
+                            <link_title>Poison Ivy, Oak, or Sumac-Other Places To Get
+                                Help</link_title>
+                            <description>Check this list of resources for information on and
+                                treatment of rash from poison ivy, oak, or sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-other-places-to-get-help</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dc06">
+                            <link_title>Poison Ivy, Oak, or Sumac-Home Treatment</link_title>
+                            <description>The rash (allergic contact dermatitis) from poison ivy,
+                                oak, or sumac generally is mild and can be treated at home. Home
+                                treatment for the rash usually helps relieve symptoms rather than
+                                speeding up the time it takes the rash to heal. If you know you
+                                had</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001dcda">
+                            <link_title>Poison Ivy, Oak, or Sumac-Exams and Tests</link_title>
+                            <description>A rash (allergic contact dermatitis) from poison ivy, oak,
+                                or sumac plants usually is diagnosed through a physical examination
+                                and questions about your outdoor activities. Your health
+                                professional will examine the rash to decide which kind of plant
+                                caused</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-exams-and-tests</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e09f">
+                            <link_title>Poison Ivy, Oak, or Sumac-Cause</link_title>
+                            <description>Learn the cause of poison ivy, oak, or sumac.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/tc/poison-ivy-oak-or-sumac-cause</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80521329">
+                            <link_title>Pityriasis Rosea Symptoms, Causes, Treatments</link_title>
+                            <description>WebMD discusses the skin rash disorder pityriasis rosea and
+                                its symptoms, causes, and treatments.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/pityriasis-rosea</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d3f1">
+                            <link_title>Pityriasis Rosea-Topic Overview</link_title>
+                            <description>What is pityriasis rosea? Pityriasis rosea is a harmless,
+                                common skin problem that causes a rash. Although it can occur at any
+                                age, it is seen most often in those between the ages of 10 and 35.
+                                See an illustration of pityriasis rosea.What causes pityriasis
+                                rosea? The cause of pityriasis rosea is unknown. Unlike many other
+                                skin conditions, it is not an allergic reaction or caused by a
+                                fungus or ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/pityriasis-rosea-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800e01c6">
+                            <link_title>Newborn Rashes and Skin Conditions-Topic
+                                Overview</link_title>
+                            <description>This topic has general information about common skin
+                                problems of newborns. See the topics Cradle Cap,Heat Rash,Diaper
+                                Rash,Birthmarks,or Jaundice in Newborns for more information about
+                                those specific problems. What are the most common skin conditions in
+                                newborns? It’s very common for newborns to have rashes or other skin
+                                problems. Some of them have long names that are hard to say and
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/newborn-rashes-and-skin-conditions-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800e01ea">
+                            <link_title>Newborn Rashes and Skin Conditions-Related
+                                Information</link_title>
+                            <description>A list of topics related to Newborn Rashes and Skin
+                                Conditions.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/newborn-rashes-and-skin-conditions-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8029907e">
+                            <link_title>Newborn Rashes and Skin Conditions-Other Places To Get
+                                Help</link_title>
+                            <description>A list of resources for information on Newborn Rashes and
+                                Skin Conditions.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/newborn-rashes-and-skin-conditions-other-places-to-get-help</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80299081">
+                            <link_title>Impetigo-Related Information</link_title>
+                            <description>A list of topics related to Impetigo.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/impetigo-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d742">
+                            <link_title>How to control itching from the chickenpox rash</link_title>
+                            <description>When you or your child has chickenpox, the rash that
+                                develops can be very uncomfortable. Key pointsAlthough the severity
+                                of the rash varies from person to person, all people with chickenpox
+                                need to minimize scratching the rash to prevent: Infection from
+                                bacteria under your fingernails or the skin of your
+                                hands.Scarring.Spreading the rash and making it more
+                                severe.Spreading the rash to others who .</description>
+                            <friendly_url>http://www.m.webmd.com/children/how-to-control-itching-from-the-chickenpox-rash</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d4a1">
+                            <link_title>Heat Rash-Related Information</link_title>
+                            <description>Health and Safety, Birth to 2 YearsHeat - Related Illnesses
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/heat-rash-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001ad4b">
+                            <link_title>Fifth Disease-Other Places To Get Help</link_title>
+                            <description>A list of organizations that provide resources for treating
+                                or living with Fifth Disease.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/fifth-disease-other-places-to-get-help</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001ac86">
+                            <link_title>Fifth Disease-Exams and Tests</link_title>
+                            <description>A health professional usually diagnoses fifth disease by
+                                the presence of its distinctive rash, by asking about any history of
+                                exposure to the disease, and by conducting a physical
+                                examination.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/fifth-disease-exams-and-tests</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d1b7">
+                            <link_title>Dry Skin and Itching-When to Call a Health
+                                Professional</link_title>
+                            <description>Call your health professional if any of the following
+                                symptoms are present:You itch all over your body but there is no
+                                obvious cause or rash.Itching is so bad that you cannot sleep and
+                                home treatment is not helping.Your skin is badly broken from
+                                scratching.Signs of infection develop, including: Increased pain,
+                                swelling, redness, warmth, or tenderness.Red streaks extending from
+                                the area.Discharge .</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/dry-skin-and-itching-when-to-call-a-health-professional</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d4bf">
+                            <link_title>Dry Skin and Itching-Related Information</link_title>
+                            <description>Atopic DermatitisRash, Age 11 and YoungerRash, Age 12 and
+                                OlderScalp ProblemsSunburn ...</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/dry-skin-and-itching-related-information</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001cec2">
+                            <link_title>Dry Skin and Itching-Home Treatment</link_title>
+                            <description>In addition to the prevention guidelines, the following
+                                home treatment suggestions may help make you comfortable if you have
+                                dry skin.For very dry hands, try this for a night: Apply a thin
+                                layer of petroleum jelly, and wear thin cotton gloves to bed. (Dry
+                                feet may benefit from similar treatment.)If dry, brittle nails are a
+                                problem, use lotion on your nails as well.Avoid scratching, which
+                                damages .</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/dry-skin-and-itching-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8010718d">
+                            <link_title>Dry Skin and Itching-Other Places To Get Help</link_title>
+                            <description>Check this list of resources for information on dry skin
+                                and itching.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/dry-skin-and-itching-other-places-to-get-help</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001d696">
+                            <link_title>Dry Skin and Itching-Description</link_title>
+                            <description>As you age, your skin produces less of the natural oil that
+                                helps it retain its moisture. Dry indoor air can cause your skin to
+                                become dry, as can excessive bathing in hot water. ...</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/tc/dry-skin-and-itching-description</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e48d">
+                            <link_title>Diaper Rash-Topic Overview</link_title>
+                            <description>Diaper rash (diaper dermatitis) is a skin irritation caused
+                                by prolonged skin wetness, friction with the diaper material, and
+                                contact with chemicals in the urine and stool.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/diaper-rash-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e4e8">
+                            <link_title>Diaper Rash-Preparing For Your Appointment</link_title>
+                            <description>A list of questions that will help your health care
+                                professional diagnose and treat Diaper Rash.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/diaper-rash-preparing-for-your-appointment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e648">
+                            <link_title>Diaper Rash-Home Treatment</link_title>
+                            <description>Home treatment is usually all that is needed for most cases
+                                of diaper rash.</description>
+                            <friendly_url>http://www.m.webmd.com/children/tc/diaper-rash-home-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f2a17">
+                            <link_title>Picture of Melasma ('pregnany mask')</link_title>
+                            <description>An example of hyperpigmentation is melasma (also known as
+                                chloasma). This condition is characterized by tan or brown patches,
+                                most commonly on the face.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-melasma-pregnancy-mask-on-cheek</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f817a">
+                            <link_title>Picture of Melasma (Pregnancy Mask) #2</link_title>
+                            <description>An example of hyperpigmentation is melasma (also known as
+                                chloasma). This condition is characterized by tan or brown patches,
+                                most commonly on the face.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-melasma-pregnancy-mask-on-forehead</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800082d7">
+                            <link_title>Heat Rash Treatment and Prevention</link_title>
+                            <description>Find out how you can treat and prevent heat rash from the
+                                experts at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-heat-rash-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007f79">
+                            <link_title>The Basics of Heat Rash</link_title>
+                            <description>What exactly is heat rash and what causes it? Learn more
+                                from WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-heat-rash-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f5e7a">
+                            <link_title>Picture of Heat Rash</link_title>
+                            <description>Heat rash looks like dots or tiny pimples. In young
+                                children, heat rash can appear on the head, neck, and
+                                shoulders.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-heat-rash</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f5418">
+                            <link_title>Picture of Ringworm</link_title>
+                            <description>Ringworm is characterized by a red ring of small blisters
+                                or a red ring of scaly skin that grows outward as the infection
+                                spreads. Though children are especially susceptible to catching
+                                ringworm, it can affect adults as well.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-ringworm</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f1c2f">
+                            <link_title>Picture of Rash from Poisonous Plants</link_title>
+                            <description>Poison ivy, poison oak and poison sumac are plants that
+                                contain an irritating, oily sap called urushiol. Urushiol triggers
+                                an allergic reaction when it comes into contact with skin, resulting
+                                in an itchy rash, which can appear within hours of exposure or up to
+                                several days later.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-rash-poisonous-plants</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f3289">
+                            <link_title>Picture of Lyme Disease</link_title>
+                            <description>Lyme disease is a bacterial infection transmitted by a tick
+                                Lyme disease was first recognized in 1975 after researchers
+                                investigated why unusually large numbers of children were being
+                                diagnosed with juvenile rheumatoid arthritis in Lyme, Connecticut
+                                and two neighboring towns.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-lyme-disease</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f7784">
+                            <link_title>Picture of How Is Ringworm Diagnosed?</link_title>
+                            <description>If you have a ring-shaped rash, you very likely have
+                                ringworm. Your doctor will be able to tell for sure.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-how-is-ringworm-diagnosed</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f0ff8">
+                            <link_title>Picture of Hives (urticaria)</link_title>
+                            <description>Urticaria, also known as hives, is an outbreak of swollen,
+                                pale red bumps or plaques (wheals) on the skin that appear suddenly
+                                &#45;&#45; either as a result of the body's adverse reaction to
+                                certain allergens, or for unknown reasons.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-hives-urticaria</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f5e47">
+                            <link_title>Picture of Henna Tattoo Reactions</link_title>
+                            <description>The Food and Drug Administration has received complaints
+                                from people who have received products marketed as henna temporary
+                                tattoos, especially so-called "black henna," at places such as
+                                salons and kiosks at beaches and fairs. There have been reports of
+                                allergic reactions, skin irritations, infections, and even
+                                scarring.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/picture-of-henna-tattoo-reactions</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f5f31">
+                            <link_title>Picture of Diaper Rash</link_title>
+                            <description>Diaper rash appears on the skin under a diaper. Diaper rash
+                                typically occurs in infants and children younger than 2 years, but
+                                the rash can also be seen in people who are incontinent or
+                                paralyzed.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-diaper-rash</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f5f51">
+                            <link_title>Picture of Cradle Cap</link_title>
+                            <description>It's common for babies to develop flaky, red patches of
+                                skin on their scalp called cradle cap. It's not a big concern and is
+                                easy to treat.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-cradle-cap</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f6e9f">
+                            <link_title>Picture of White Bumps (Milia)</link_title>
+                            <description>Little white bumps on the nose and face ("milia") are
+                                caused by blocked oil glands. When baby's oil glands enlarge and
+                                open up in a few days or weeks, the white bumps
+                                disappear.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-white-bumps-milia</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8043b560">
+                            <link_title>Picture of Impetigo</link_title>
+                            <description>Impetigo: S. aureus. Crusted erythematous erosions becoming
+                                confluent on the nose, cheek, lips, and chin in a child with nasal
+                                carriage of S. aureus and mild facial eczema.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-impetigo-s-aureus</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8042e691">
+                            <link_title>Picture of Vitiligo on Back</link_title>
+                            <description>Vitiligo. These are more illustrations of fairly extensive
+                                cases of vitiligo. The condition tends to progress and may even
+                                become universal. A variety of treatment modalities are commonly
+                                employed, with varying degrees of success. The patient and family
+                                should be made aware of the sophisticated cover-up cosmetics that
+                                are now available. The use of broad-spectrum sunscreen lotions
+                                during the summer months minimizes the con- trast between normal and
+                                involved skin. For some patients, the application of topical
+                                corticosteroids alone or with brief natural sunlight exposure early
+                                in the course of the disease may induce repigmentation. Narrowband
+                                UUB is also an effective treatment. Varying combinations of topical
+                                or oral psoralens and ultraviolet A light (PUVA) are used in the
+                                treatment of vitiligo.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-vitiligo-back</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80428df4">
+                            <link_title>Picture of Dermatitis Medicamentosa on Back</link_title>
+                            <description>Drug eruptions (dermatitis medicamentosa). Drug eruptions
+                                may mimic nearly the entire range of dermatoses of other causes. One
+                                of the commonest forms is the exanthematic, whose lesions are
+                                usually erythematous and edematous. Common causes of drug eruptions
+                                include ampicillin, cephalosporins, semisynthetic penicillins, and
+                                barbiturates. We have just illustrated cases that were morbilliform.
+                                Illustrated here are cases clinically resembling erythema
+                                multiforme.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-dermatitis-medicamentosa-back</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80428d38">
+                            <link_title>Picture of Dermatitis Medicamentosa</link_title>
+                            <description>Drug eruptions (dermatitis medicamentosa). Diagnosing drug
+                                eruptions has become a common experience to practitioners in all
+                                branches of modern medicine. The profusion of drugs now available,
+                                the continuous influx of new drugs, and the capability of drugs to
+                                cause actions different from or in addition to their
+                                pharmacologically desirable actions make adverse cutaneous reactions
+                                an inevitable fact of modern medical practice. The kinds of
+                                cutaneous reactions are varied. Exanthems (erythematous,
+                                morbilliform or maculopapular), urticaria, fixed drug eruptions, and
+                                erythema multiforme are the most common. Figure 18-1 is an
+                                urticarial reaction from Augmentin and Fig. 18-2 shows a
+                                morbilliform eruption from ampicillin. Constitutional symptoms of
+                                low-grade fever and malaise may be associated with such drug
+                                eruptions. Morbilliform eruptions from ampicillin are more
+                                frequently seen in children with infectious
+                                mononucleosis.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-dermatitis-medicamentosa</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8042ded9">
+                            <link_title>Picture of Systemic Lupus Erythematosus</link_title>
+                            <description>Systemic lupus erythematosus. Image illustrates cutaneous
+                                involvement of systemic lupus erythematosus (SLE) in the classic
+                                butterfly pattern on the face. This macular and intensely
+                                erythematous eruption is frequently aggravated by sun exposure and
+                                may flare with other symptoms of systemic disease.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-systemic-lupus-erythematosus</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8042cdf7">
+                            <link_title>Picture of Nickel Contact Dermatitis from
+                                Necklace</link_title>
+                            <description>Nickel contact dermatitis. Allergy to nickel is one of the
+                                most common causes of contact dermatitis in children. Infants may
+                                present with skin lesions corresponding to the location of snaps on
+                                their pajamas or other garments. Older children may show reactions
+                                to watches, chains, belt buckles, or earrings.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-nickel-contact-dermatitis-necklace</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8042cda9">
+                            <link_title>Picture of Nickel Contact Dermatitis</link_title>
+                            <description>Nickel contact dermatitis. The development of an itchy
+                                eczematous eruption near the umbilicus is virtually pathognomonic
+                                for contact dermatitis to nickel. The source is the small metal snap
+                                in the blue jeans or the metal belt buckle. The simultaneous
+                                occurrence of an id reaction, sometimes with small lichenoid papules
+                                on the elbows and knees, is very common. Lesions can be treated
+                                effectively with topical corticosteroids, but the only cure results
+                                from strict avoidance of nickel. This is easier said than done.
+                                Parents must buy jeans without snaps or sew in a small piece of
+                                fabric to protect the underlying skin. Families should be reminded
+                                that wearing jeans with a metal snap for just several hours out of
+                                the month would reactivate the entire process. Children with contact
+                                dermatitis to nickel should also avoid metal jewelry and should be
+                                advised against ear piercing.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-nickel-contact-dermatitis</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8043b7a3">
+                            <link_title>Picture of Rubella</link_title>
+                            <description>Rubella. Truncal lesions appear 24 h after onset of facial
+                                lesions.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-rubella-truncal</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8043852c">
+                            <link_title>Picture of Psoriasis Vulgaris</link_title>
+                            <description>Psoriasis vulgaris, scalp and nail findings. Pinpoint pits
+                                and distal onycholysis (so-called "oil-spot" discoloration) seen in
+                                the fingernails of a child with psoriasis.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/picture-of-psoriasis-vulgaris-distal-onycholysisnail</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8043858d">
+                            <link_title>Picture of Psoriasis Vulgaris Erythematous</link_title>
+                            <description>Psoriasis vulgaris. Well-delineated erythematous plaque
+                                located on the elbow of a child with psoriasis.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/picture-of-psoriasis-vulgaris-erythematous</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e804385d3">
+                            <link_title>Picture of Psoriasis Vulgaris Plaque</link_title>
+                            <description>Psoriasis vulgaris, Koebner phenomenon. Well-delineated
+                                erythematous plaque with a silvery-white scale characteristic of
+                                psoriasis.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/picture-of-psoriasis-vulgaris-koebner-phenomenon</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e804384ef">
+                            <link_title>Picture of Poison Ivy</link_title>
+                            <description>Poison ivy with characteristic shiny, red, 3-leaf
+                                configuration.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-poison-ivy</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80434c51">
+                            <link_title>Picture of Poison Ivy Exposure</link_title>
+                            <description>Allergic contact dermatitis. Linear arrangement of vesicles
+                                on the wrist and bulla on the foot of a child exposed to poison
+                                ivy.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-allergic-contact-dermatitis-poison-ivy</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e804388bf">
+                            <link_title>Picture of Sea Urhcin Dermatitis</link_title>
+                            <description>Sea urhcin dermatitis. Puncture sites on the plantar
+                                surface of an individual who stepped on a sea urchin.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-sea-urhcin-dermatitis</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8043545b">
+                            <link_title>Picture of Eczema Herpeticum</link_title>
+                            <description>Eczema herpeticum. Widespread punched-out lesions on a
+                                child with atopic dermatitis and superimposed herpes simplex
+                                infection.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-eczema-herpeticum</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80438715">
+                            <link_title>Picture of Rubella</link_title>
+                            <description>Rubella. Petechiae on the hard palate of the same
+                                individual (Forchheimer's sign).</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-rubella</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e804381b7">
+                            <link_title>Picture of Photoallergic Reaction</link_title>
+                            <description>Photoallergic reaction. Erythema and edema with sunlight
+                                exposure in a patient sensitized to oral sulfonamides.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-photoallergic-reaction</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80436d0c">
+                            <link_title>Picture of Morbilliform Drug Eruption on Face</link_title>
+                            <description>Drug hypersensitivity reaction. Morbilliform rash
+                                eventually spread to the face and extremeties of the same
+                                child.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-morbilliform-rash-face</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007f3b">
+                            <link_title>Side Effects of the Smallpox Vaccine</link_title>
+                            <description>Learn more about the potential side effects of the smallpox
+                                vaccine.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/smallpox-vaccination-effects</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007e52">
+                            <link_title>The Basics of Eczema</link_title>
+                            <description>Read a basic overview of the common skin condition
+                                eczema.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-eczema-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8001e141">
+                            <link_title>Ringworm - Causes, Symptoms, Diagnosis, Treatment and
+                                Prevention of Ringworm</link_title>
+                            <description>Is this topic for you? This topic is about ringworm of the
+                                skin, groin, and hands. For information about other fungal
+                                infections, see the topics Athlete's Foot, Diaper Rash, Fungal Nail
+                                Infections, and Ringworm of the Scalp or Beard. What is ringworm of
+                                t</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/tc/ringworm-of-the-skin-topic-overview</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80008438">
+                            <link_title>Skin Problems in Diabetes</link_title>
+                            <description>Learn more about the many common skin problems that can
+                                come with diabetes.</description>
+                            <friendly_url>http://www.m.webmd.com/diabetes/guide/skin-problems</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8042c998">
+                            <link_title>Picture of Measles</link_title>
+                            <description>Measles. This picture shows the “measly” appearance of a
+                                child who clearly feels miserable. The disease is brief and
+                                self-limited for most children, and the treatment is entirely
+                                supportive. The incidence of complications is higher, however, than
+                                in other childhood exanthems. Otitis media is the most common.
+                                Serious complications include bronchopneumonia and encephalitis,
+                                which may cause permanent neurologic damage. Subacute sclerosing
+                                panencephalitis is a late sequela of measles.</description>
+                            <friendly_url>http://www.m.webmd.com/children/picture-of-measles</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80422647">
+                            <link_title>Picture of Measles</link_title>
+                            <description>Measles. Erythematous flat papules, first appearing on the
+                                face and neck where they become confluent, spreading to the trunk
+                                and arms in 2 to 3 days where they remain discrete. In contrast,
+                                rubella also first appears initially on the face but spreads to the
+                                trunk in 1 day. Koplik’s spot on the buccal mucosa were also
+                                present.</description>
+                            <friendly_url>http://www.m.webmd.com/children/picture-of-measles-2</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f18f2">
+                            <link_title>Picture of Eczema</link_title>
+                            <description>Eczema is a skin condition caused by inflammation. Atopic
+                                dermatitis is the most common of the many types of
+                                eczema.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-eczema</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f24c5">
+                            <link_title>Picture of Razor Bumps</link_title>
+                            <description>Razor bumps, also called pseudofolliculitis barbae, are
+                                small, irritated bumps on the skin. They develop after shaving, when
+                                strands of hair curl back on themselves and grow into the
+                                skin.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/picture-of-razor-bumps</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80072fe2">
+                            <link_title>Skin Care Basics</link_title>
+                            <description>Links to articles that will give you basic information
+                                about proper skin care and the scoop on understanding skin care
+                                products.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/skin-problems-skin-care</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80063a00">
+                            <link_title>Finding Help for Skin Problems</link_title>
+                            <description>These links will connect you with others who share your
+                                concerns about skin and help you find a dermatologist or
+                                allergist.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/skin-problems-finding-help</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80008c14">
+                            <link_title>Medications for Skin Conditions</link_title>
+                            <description>Learn about common medicationss used to treat skin
+                                conditions, including topical and oral drugs.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/medications-skin-conditions</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80008819">
+                            <link_title>The Basics of Dermatitis</link_title>
+                            <description>Learn the basics of the different types of dermatitis from
+                                the experts at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-dermatitis-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000839c">
+                            <link_title>Preventing Dermatitis</link_title>
+                            <description>Read these tips about preveting the skin condition
+                                dermatitis.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-dermatitis-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000839a">
+                            <link_title>Dermatitis Symptoms</link_title>
+                            <description>Learn about symptoms of the various types of
+                                dermatitis.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-dermatitis-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80008317">
+                            <link_title>Dermatitis Treatments</link_title>
+                            <description>An overview of the diagnosis and treatment of dermatitits,
+                                a common skin condition.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-dermatitis-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800082f8">
+                            <link_title>Preventing Poison Ivy, Oak, &amp; Sumac</link_title>
+                            <description>Learn how to avoid poison ivy, poison oak, and sumac
+                                &#45;&#45; and what to do when they're unavoidable.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-poison-ivy-oak-sumac-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007f26">
+                            <link_title>Red Birthmarks, Hemangiomas, and Your Skin</link_title>
+                            <description>Learn about hemangiomas, red birthmarks, and treatments for
+                                them.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/red-birthmarks</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000787b">
+                            <link_title>Skin Conditions in Pregnancy</link_title>
+                            <description>Learn about common skin conditions linked to pregnancy and
+                                what you can do about them.</description>
+                            <friendly_url>http://www.m.webmd.com/baby/skin-conditions-pregnancy</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80424ca6">
+                            <link_title>Picture of Tattoo Allergic Reaction</link_title>
+                            <description>Exuberant blistering reaction in red tattoo pigment. The
+                                reaction occurred with each treatment and predictably resolved
+                                completely within a few days with routine topical skin
+                                care.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/picture-of-tattoo-allergic-reaction-red-pigment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f812a">
+                            <link_title>Picture of Shingles Blisters</link_title>
+                            <description>The cluster of blisters that form with shingles fill with
+                                fluid, pop, then start to ooze. Eventually the affected areas crust
+                                over and heal like the rash shown here.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/picture-of-shingles-blisters</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f5e0f">
+                            <link_title>Picture of Shingles</link_title>
+                            <description>With shingles, the first thing you may notice is a tingling
+                                sensation or pain on one side of your body or face. Painful skin
+                                blisters then erupt on only one side of your face or body along the
+                                distribution of nerves on the skin.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/picture-of-shingles</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80072fd8">
+                            <link_title>Skin Problems: Special Needs Skin Care</link_title>
+                            <description>Skin Problems: Special Needs Skin Care</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/skin-problems-special-needs-skin-care</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80010d8a">
+                            <link_title>Fast Facts About Rosacea</link_title>
+                            <description>Doctors don't know the exact cause of rosacea, but some
+                                think it happens when blood vessels expand too easily, causing
+                                flushing.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/guide/rosacea-causes</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007504">
+                            <link_title>Birthmarks and Other Skin Pigmentation Problems</link_title>
+                            <description>Read about birthmarks and other common skin pigmentation
+                                disorders, including cosmetic procedures that can correct
+                                them.</description>
+                            <friendly_url>http://www.m.webmd.com/healthy-beauty/cosmetic-procedures-birthmarks</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802f8a2f">
+                            <link_title>Babies and Eczema</link_title>
+                            <description>Does your baby have eczema? Learn more about infants and
+                                this common skin rash.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/baby-eczema-questions-answers</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80008974">
+                            <link_title>Ringworm Symptoms</link_title>
+                            <description>Get the basics on ringworm symptoms, treatment and
+                                prevention from the experts at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-ringworm-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000835a">
+                            <link_title>The Diagnosis and Treatment of Lyme Disease</link_title>
+                            <description>Read about the diagnosis and treatment of Lyme
+                                disease.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-lyme-disease-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800092cc">
+                            <link_title>Impetigo Treatments</link_title>
+                            <description>Find out how impetigo, a contagious skin infection, should
+                                be treated.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-impetigo-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800083c5">
+                            <link_title>Heat Rash Symptoms</link_title>
+                            <description>Could you have a heat rash? Check out the symptoms from the
+                                experts at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/understanding-heat-rash-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007842">
+                            <link_title>Symptoms of Fifth Disease</link_title>
+                            <description>Read about the symptoms of fifth disease, a contagious
+                                viral condition usually seen in children.</description>
+                            <friendly_url>http://www.m.webmd.com/children/understanding-fifth-disease-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007844">
+                            <link_title>Preventing Fifth Disease</link_title>
+                            <description>Learn more about ways to prevent fifth disease in children
+                                and adults.</description>
+                            <friendly_url>http://www.m.webmd.com/children/understanding-fifth-disease-prevention</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007840">
+                            <link_title>Treating Fifth Disease</link_title>
+                            <description>Learn more about fifth disease and how it's
+                                treated.</description>
+                            <friendly_url>http://www.m.webmd.com/children/understanding-fifth-disease-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800091da">
+                            <link_title>Treating Diaper Rash</link_title>
+                            <description>Learn about the treatment of diaper rash from the experts
+                                at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-diaper-rash-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80009294">
+                            <link_title>Diaper Rash &#45;&#45; the Basics</link_title>
+                            <description>Get the basics on diaper rash from the experts at
+                                WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-diaper-rash-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800091d0">
+                            <link_title>Symptoms of Diaper Rash</link_title>
+                            <description>Understand the symptoms of diaper rash from the experts at
+                                WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/understanding-diaper-rash-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000826e">
+                            <link_title>Understanding Treatment of Hives</link_title>
+                            <description>Learn about the treatment of hives.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/understanding-hives-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000826a">
+                            <link_title>Understanding the Basics of Hives</link_title>
+                            <description>Get basic information about hives.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/understanding-hives-basics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e8000828b">
+                            <link_title>Understanding the Symptoms of Hives</link_title>
+                            <description>Read a brief description of the symptoms of
+                                hives.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/understanding-hives-symptoms</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80396037">
+                            <link_title>The Skin (Human Anatomy): Picture, Definition, Function, and
+                                Skin Conditions</link_title>
+                            <description>WebMD's Skin Anatomy Page provides a detailed image of the
+                                skin and its parts as well as a medical definition. Learn about the
+                                skin's function and conditions that may affect the
+                                skin.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/picture-of-the-skin</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80007b16">
+                            <link_title>Allergies Triggered by Cosmetics</link_title>
+                            <description>Are you allergic to certain cosmetics or
+                                makeup?</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/guide/cosmetics</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800113e5">
+                            <link_title>Your Newborn's Skin and Rashes</link_title>
+                            <description>Rashes in newborns are common. Read about common skin
+                                rashes in infants and what they look like &#45;&#45; and which
+                                rashes need medical treatment.</description>
+                            <friendly_url>http://www.m.webmd.com/children/guide/baby-skin-rashes</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80010a93">
+                            <link_title>Yeast Infection Basics</link_title>
+                            <description>Candidiasis is an infection caused by a group of
+                                microscopic fungi or yeast.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/candidiasis-yeast-infection</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800113db">
+                            <link_title>Your Baby's Diaper Rash</link_title>
+                            <description>Learn about the causes and treatments of diaper rash, a
+                                common problem for babies.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/babys-diaper-rash</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80217620">
+                            <link_title>Wilderness: Allergic Reactions Treatment</link_title>
+                            <description>When a person sensitive to certain foreign substances is
+                                exposed to those substances, a reaction marked by itching, flushing
+                                (reddening of the skin), a raised rash, respiratory distress, and
+                                blood ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/wilderness-allergic-reactions-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80217f9e">
+                            <link_title>Contact Dermatitis Treatment</link_title>
+                            <description>Contact dermatitis is an inflammation of the skin. Find out
+                                how it's treated from the exerts at WebMD.</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/contact-dermatitis-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80212411">
+                            <link_title>Insect Bites Treatment</link_title>
+                            <description>Stings and bites from insects are common. They often result
+                                in redness and swelling in the injured area. Sometimes a sting can
+                                cause a life-threatening allergic reaction. Arthropods are insects
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/insect-bites-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e802117d0">
+                            <link_title>Diaper Rash Treatment</link_title>
+                            <description>Diaper rash appears on the skin under a diaper. Diaper rash
+                                typically occurs in infants and children younger than 2 years, but
+                                the rash can also be seen in people ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/diaper-rash-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80211736">
+                            <link_title>Yeast Infection Diaper Rash Treatment</link_title>
+                            <description>Most diaper rashes have to do with impairment of skin
+                                integrity rather than any specific bacterial or fungal infection.
+                                However, sometimes an infection is a factor in diaper rash. The
+                                ...</description>
+                            <friendly_url>http://www.m.webmd.com/a-to-z-guides/yeast-infection-diaper-rash-treatment</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800123ac">
+                            <link_title>Contact Dermatitis and Skin Allergies</link_title>
+                            <description>Contact dermatitis and other skin allergies.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/guide/skin-allergies</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e800542f6">
+                            <link_title>Allergic Reaction Causes and Triggers</link_title>
+                            <description>An allergic reaction is the body's way of responding to an
+                                "invader." When the body senses a foreign substance, called an
+                                antigen, the immune system is triggered.</description>
+                            <friendly_url>http://www.m.webmd.com/allergies/guide/allergic-reaction-causes</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                        <asset id="091e9c5e80056f60">
+                            <link_title>Erythema Nodosum: Symptoms, Causes, Diagnosis, and
+                                Treatment</link_title>
+                            <description>WebMD explains what erythema nodosum is as well as causes,
+                                symptoms, diagnosis, and treatment information.</description>
+                            <friendly_url>http://www.m.webmd.com/skin-problems-and-treatments/erythema-nodosum</friendly_url>
+                            <thumbnail/>
+                        </asset>
+                    </assets>
+                </category>
+            </categories>
+        </topic_dir>
+    </topic_dirs>
+</webmd_rendition>

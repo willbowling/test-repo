@@ -1,0 +1,28 @@
+<webmd>
+<!--
+Layout Settings -->
+<layout> <columns> 3 </columns> <!-- 2 /
+3--> <theme> silver </theme>
+        </layout>
+<!--
+Metrics -->
+<metrics> <modulename> sponsorvideo </modulename>  
+                <getsafetylinkid>false</getsafetylinkid> </metrics>
+        
+        <!-- Videos -->
+        <playlist>
+                <preroll>
+                        <enabled>true</enabled> <xpg> 1834 </xpg>
+                        <site>2</site> <affiliate> 20 </affiliate>
+                        <pos>203</pos> <leaf> 1834 </leaf>
+                </preroll> <enabled> true </enabled>                        <!-- If disabled, automatically defaults to single video modes and uses replay overlay -->
+                <layout>replay</layout> <!--
+replay / filmstrip / overlay -->
+<vlocsuffix> 8_ </vlocsuffix>
+                <autoplay>true</autoplay> <videos> <video id="vd-2373-hzim-01"> <vloc> <![CDATA[rtmp: //cp21191.edgefcs.net/ondemand/21191/post1B/vd-2373-hzim-01]]></vloc>
+<title></title>
+                                <description></description> <about> <![CDATA[ <b> Post Holiday Blues </b><br /> Reviewed by <a href='http://www.webmd.com/brunilda-nazario'
+target='_blank'> <font color="#336699"> Brunilda Nazario, MD </font></a> , October 2009 <br /> SOURCES: The British United Provident Association(BUPA). <br /> Â©2008 WebMD,
+LLC.All rights reserved.]]> </about>
+                        </video> </videos>
+        </playlist> </webmd>

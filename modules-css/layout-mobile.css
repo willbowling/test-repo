@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+/* START CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: #333;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/* END CSS RESET */
+
+
+
+/* body specific styles including webkit specific text sizing */
+body {
+background-color: #fff;
+margin: 0; 
+/*overflow: hidden;*/
+padding: 0;
+-webkit-text-size-adjust: none;
+}
+body{
+font-family:Arial, Verdana, Helvetica, sans-serif;
+font-size: 10pt;  /* -- Depricated due to various Mobile Resolutions etc. -- */
+/* font-size: 62.5%; */ /* -- This sets the stage for using EM units as they were intended. so 1.0 em == 100% and 1.4em == 140% -- */ 
+}
+
+/* Media Query that Ajusts Article Size based on orientation - could go into article CSS */
+ 
+/* Portrait */
+@media screen and (orientation:portrait) {
+    /* Portrait styles */
+	.article {font-size: 1.1em;}
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+    /* Landscape styles */
+   	.article {font-size: 1.3em;}
+}
+
+
+/* standard link colors and styles */
+a:link, a:active {
+text-decoration: none;
+color: #3789b9;
+}
+a:visited {
+text-decoration: none;
+color: #3789b9;
+}
+a:hover {
+text-decoration: underline;
+color: #3789b9;
+}
+a.type_com i {
+background: url('../../consumer_assets/site_images/modules/link_icons.gif') 0px 2px no-repeat;
+display: inline-block;
+height: 12px;
+margin-left: 3px;
+vertical-align: text-top;
+width: 12px;
+}
+a.type_ss i {
+background: url('../../consumer_assets/site_images/modules/link_icons.gif') 0px -43px no-repeat;
+display: inline-block;
+height: 12px;
+margin-left: 3px;
+vertical-align: text-top;
+width: 12px;
+}
+a.type_vid i {
+background: url('../../consumer_assets/site_images/modules/link_icons.gif') 0px -88px no-repeat;
+display: inline-block;
+height: 12px;
+margin-left: 3px;
+vertical-align: text-top;
+width: 12px;
+}  
+
+
+
+/* standard CSS arrows for navigation elements. Size can be overriden on a case by case basis */
+.arrow_down {
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 4px solid #006699;
+float:right;
+height: 0;
+width: 0;
+}
+.arrow_up {
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-bottom: 4px solid #006699;
+float:right;
+height: 0;
+width: 0;
+}
+.arrow_right {
+border-top: 4px solid transparent;
+border-bottom: 4px solid transparent;
+border-left: 4px solid #006699;
+float:right;
+height: 0;
+width: 0;
+}
+.arrow_left {
+border-top: 4px solid transparent;
+border-bottom: 4px solid transparent;
+border-right: 4px solid #006699;
+float:right;
+height: 0;
+width: 0;
+}
+
+
+/* layout styles for columns */
+#centering_area {
+width:100%;
+}
+#mainContent_area {
+padding:0 10px;	
+}
+
+/* clearing css for clearing floats */
+.clearing {
+clear:both;
+display:block;
+}
+
+/* Standard site buttons*/
+.webmd-btn {
+	background-color: transparent;
+	background-repeat:  no-repeat;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: .9em;
+	height: 35px;
+	font-family: Arial;
+}
+a.webmd-btn, a.webmd-btn:visited, a.webmd-btn:active, a.webmd-btn:link, a.webmd-btn:hover {
+	display: block;
+	height: 22px;
+	padding: 8px 0px 0px 0px;
+	text-decoration: none;
+	text-align: center;
+}
+
+a.webmd-btn-pr, a.webmd-btn-pr:visited, a.webmd-btn-pr:active, a.webmd-btn-pr:link, a.webmd-btn-pr:hover {
+	color: #FFF;
+}
+a.webmd-btn-sc, a.webmd-btn-sc:visited, a.webmd-btn-sc:active, a.webmd-btn-sc:link, a.webmd-btn-sc:hover {
+	color: #069;
+}
+button.webmd-btn {
+	min-height: 27px;
+	padding: 0px 0px 2px;
+}
+
+/* START Medium PNG  */
+.loading_medium_png {
+background:url('../../consumer_assets/site_images/modules/loading_medium.png');
+height:53px;
+margin:auto;
+-webkit-animation-name:             rotate; 
+-webkit-animation-duration:         1.5s; 
+-webkit-animation-iteration-count:  infinite;
+-webkit-animation-timing-function: linear;
+width:53px;
+}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}}
+.loading_medium_png span {
+display:none;
+}
+/* END Medium PNG  */
+
+.webmd-btn-pr{
+	background-color: #FE812E;															/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(100% 100% 90deg, #CC5302, #FE812E); 				/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CC5302), to(#FE812E)); 
+	background: -webkit-linear-gradient(#CC5302, #FE812E);								/* Safari 5.1+, Chrome 10+ */ 
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	color:#FFFFFF;
+}
+.webmd-btn-sc{
+	background-color: #d4e9f2;															/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(100% 100% 90deg, #f0f5f7, #b7dced); 				/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0f5f7), to(#b7dced)); 
+	background: -webkit-linear-gradient(#f0f5f7, #b7dced);								/* Safari 5.1+, Chrome 10+ */ 
+	border:1px solid #95c7dd;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	color:#FFFFFF;
+}
+.webmd-btn-sc {
+	color: #069;
+}
+.webmd-btn-l {
+	width:117px;
+}
+.webmd-btn-m {
+	width:91px;
+}
+.webmd-btn-s {
+	width:72px;
+}
+.webmd-btn-xL {
+	width:280px;
+}
+.webmd-btn-xs {
+	width:52px;
+}
+/* END Standard Site Buttons */
+
+/* START Overlay styles to go into layout.css 
+   To Do: Mobilize these styles, not ideal but they work
+*/
+#webmdHoverOverlay {
+background:#fff;
+height:100%;
+position:fixed;
+width:100%;
+z-index:999;
+}
+#colorbox {
+background:#fff;
+-webkit-box-shadow: 0px 0px 15px 2px  #7f7f7f;
+box-shadow: 0px 0px 15px 2px  #7f7f7f;
+border-radius: 10px;
+position:absolute;
+width:550px;
+z-index:999;
+overflow:visible !important;
+}
+#webmdHoverContent {
+background:#fff;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+#webmdHoverClose {
+background:url('../../consumer_assets/site_images/modules/webmd_overlay_close_x.png') no-repeat;
+cursor:pointer;
+display:block;
+height:27px;
+text-indent:-5000px;
+position:absolute;
+width:27px;
+top:-8px;
+right:-8px;
+z-index:999;
+}
+#webmdHoverTitle {
+display:none;	
+}
+/* START styles for WebMD Confirm and Alert defaults */
+#webmd_confirm {
+text-align:center;	
+padding:20px;
+}
+#webmd_confirm .webmd_confirm_content {
+text-align:left;	
+}
+#webmd_confirm .webmd_confirm_buttons {
+margin-top:10px;	
+}
+#webmd_confirm_false_button {
+margin-left:20px;	
+}
+/* END styles for WebMD Confirm and Alert defaults */
+/* END Overlay styles to go into layout.css */

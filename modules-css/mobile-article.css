@@ -1,0 +1,326 @@
+/* START Article CSS */
+.article {
+font-size:110%;
+padding: 12px 0 0;
+}
+/* Media Query that Ajusts Article Size based on orientation - WEB */
+
+/* Landscape */
+@media only screen and (min-width: 480px) {
+/* Landscape styles */
+.article {
+    font-size: 130%;
+    }
+}
+.article .bottom {
+border-bottom: 1px solid #E3E3E3;
+clear: both;
+height: 20px;
+margin: -5px -10px 0;
+}
+.article h2 {
+color: #A6BF47;
+font-weight: normal;
+margin-bottom: 10px;
+}
+.article h3, .article h4 {
+font-weight: bold;
+margin: 15px 0 5px;
+}
+
+/* Begin SHARE and FONT SIZE UI Elements - WEB */
+.article .share, .article .font {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	background-color:#eaeaea;
+	background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#fff),to(#eaeaea));
+	background-image:-webkit-linear-gradient(#fff,#eaeaea);
+	border-radius:5px;
+	border:1px solid #c9c9c9;
+	display:block;
+	text-align:center;
+	font-size:95%;
+	font-weight:700;
+	-moz-box-shadow:0 0 5px #eaeaea;
+	-webkit-box-shadow:0 0 5px #eaeaea;
+	box-shadow:0 0 5px #eaeaea;
+	margin:0 15px 10px 0
+}
+
+.article .ui-button {
+	padding:5px;
+	float:left
+}
+
+/* specific font (a A) design treatment */
+.article .ui-button span {
+	font-size:70%;
+	padding-right:3px
+}
+
+.article .subhead {
+	clear:both
+}
+
+/* Article font size styles */
+.smallFont .article {
+	font-size:90%
+}
+
+.mediumFont .article {
+	font-size:110%
+}
+
+.largeFont .article {
+	font-size:170%
+}
+/* End SHARE and FONT SIZE UI Elements - WEB */
+
+
+.article .subhead {
+color: #333333;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.article .byline {
+margin-bottom: 10px;
+}
+.article .bioBox {
+float: left;
+margin-right: 10px;
+}
+.article .art_thumb {
+float: left;
+margin: 0 10px 10px 0;
+}
+.archiveStamp {
+font-size: 95%;
+}
+.article p {
+margin: 10px 0;
+font-size: 110%;
+line-height: 1.35;
+}
+.article p img {
+margin: 10px;
+}
+.article li {
+list-style: disc inside none;
+margin: 5px 0;
+padding-left: 14px;
+text-indent: -12px;
+}
+.article .attribution {
+clear: both;
+}
+.article .attribution p {
+font-size: 75%;
+margin: 3px 0;
+}
+.article .medical_reference img {
+margin-left: 10px;
+vertical-align: middle;
+}
+.attribution .dropdown_wrap .dropdown {
+background: none repeat scroll 0 0 transparent;
+border: medium none;
+color: #333333;
+margin: 0;
+padding: 0;
+}
+.attribution .dropdown_wrap .header {
+color: #3789B9;
+font-size: 75%;
+padding: 0;
+width: 130px;
+}
+.attribution .dropdown_wrap .arrow_down, .attribution .dropdown_wrap .arrow_up {
+display: block;
+float: right;
+margin: 5px 0 0 7px;
+}
+.attribution .dropdown_wrap .dropdown_content {
+background: none repeat scroll 0 0 transparent;
+border: medium none;
+display: none;
+}
+.article .continued {display: none;} /* hidden for testing - WEB */
+.article .pagination {
+width:100%; 
+text-align: center;
+}
+.article .pagination .previous {
+float: left;
+margin-right: 10px;
+}
+.article .pagination .next {
+float: right; 
+margin-left: 10px;
+}
+.article .pagination .page_num {
+padding-top: 10px;
+margin-bottom: 20px;
+}
+.article .pagination .page_num a, .article .pagination .page_num span {
+font-weight: bold;
+margin: 0 5px;
+}
+.article .pagination .arrow {
+-webkit-border-radius:25px;
+background:#096389;
+background:-webkit-gradient(linear, left top, left bottom, from(#2993c1), to(#096389));
+text-align:center;
+height:40px;
+width:40px;
+}
+.article .pagination .arrow_left, .article .pagination .arrow_right {
+border-bottom: 10px solid transparent;
+border-right: 10px solid #FFFFFF;
+border-top: 10px solid transparent;
+margin: 10px 17px 0 0;
+text-indent: -10000px;
+}
+.article .pagination .arrow_right {
+border-left: 10px solid #FFFFFF;
+border-right: medium none;
+margin-right: 13px;
+}
+.dropdown_wrap .dropdown {
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eef7fa));
+-webkit-border-radius: 5px;
+border: 1px solid #c8dde6;
+margin:15px 0 10px;
+color: #317597;
+}
+.dropdown_wrap .header {
+font-size: 110%;
+padding: 10px 9px;
+}
+.dropdown_wrap .arrow_up, .dropdown_wrap .arrow_down {
+float: right;
+margin: 5px 5px 0 0;
+}
+.dropdown_wrap .dropdown_content {
+border-top: 1px solid #C8DDE6;
+display: none;
+}
+.dropdown_wrap ul {
+margin: 8px 10px 12px;
+}
+.dropdown_wrap ul li {
+list-style: none outside none;
+}
+.dropdown_wrap a {
+display: block;
+height: 100%;
+padding: 8px 0 7px;
+width: 100%;
+}
+.dropdown_wrap .bottom {
+border-bottom: 1px solid #E3E3E3;
+clear: both;
+height: 5px;
+margin: 0 -10px 0;
+}
+.article .faq {
+margin: 15px 0;
+}
+.article .faq li {
+list-style: none outside none;
+padding-left: 0;
+text-indent: 0;
+}
+#FAQ li p {
+margin-left: 0 !important;
+}
+.faqMultipleQA .button {
+display: none;
+}
+.article .faq li.question, .article .faq li.question_fmt {
+margin: 10px 0;
+}
+.article .faq li.answer, .article .faq li.answer_fmt {
+display: none;
+}
+.article .faq li.answerActive_fmt {
+background: none repeat scroll 0 0 #F9F9F9;
+display: block;
+margin: 10px;
+padding: 10px;
+}
+.article .faq li.answerActive_fmt h4 {
+font-weight: bold;
+}
+.article .faq li.questionActive_fmt {
+font-weight: bold;
+}
+.hwDefinition .fakeUl {
+display: block;
+line-height: 17px;
+margin: 10px 0;
+}
+.article h2 .headerImg {
+float: right;
+padding-left: 20px;
+}
+.article .headerLink {
+display: none;
+}
+.actionset {
+margin: 10px 0;
+}
+.actionset .NoWebPrint {
+display: none;
+}
+.actionset .section .arrow .link, .actionset .arrw {
+display: none;
+}
+.actionset .section {
+clear: both;
+margin: 10px 0;
+}
+.actionset .detail {
+clear: both;
+display: none;
+}
+.actionset .content {
+background: none repeat scroll 0 0 #F9F9F9;
+margin: 10px;
+padding: 10px;
+}
+.actionset .section .title {
+float: left;
+}
+.actionset .vertical1 {
+float: left;
+padding-left: 5px;
+width: 75%;
+}
+.actionset .dashed {
+clear: both;
+}
+.article .credits {
+clear: both;
+font-size: 80%;
+padding-top: 20px;
+}
+.img_collection p img{
+width: 90%;
+}
+.decisionPoint {
+margin-top: 15px;
+}
+.decisionPoint .arrw {
+display: none;
+}
+.decisionPoint .vertical3 {
+font-size: 110%;
+margin: 10px 0;
+}
+.decisionPoint .detail {
+background: none repeat scroll 0 0 #F9F9F9;
+display: none;
+margin: 10px;
+padding: 10px;
+}
+/* END Article CSS */
+

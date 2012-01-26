@@ -1,0 +1,225 @@
+/* START Preload spinner to go into layout.css */
+.preload_spinner {
+background:url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/loading_icon_trans.png');
+height:53px;	
+margin:0 auto;
+-webkit-animation-name:             rotate; 
+-webkit-animation-duration:         1.5s; 
+-webkit-animation-iteration-count:  infinite;
+-webkit-animation-timing-function: linear;
+width:53px;
+}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}}
+/* END Preload spinner to go into layout.css */
+
+
+
+/* START Mobile Slideshow */
+#mainContent_area, .ss {
+color:#fff;
+background:#000;
+overflow: hidden;
+position: relative;
+padding-bottom:5px;
+}
+.ss .preload_spinner {
+margin:20px auto 40px;
+}
+.ss .ss_slides{
+clear:both;
+height:400px;
+position: relative;
+text-align:center;
+width:100%;
+-webkit-transition-timing-function: ease-out;
+}
+.ss .ss_slide {
+clear:both;
+display:block;
+width:100%;
+left:0;
+top:0;
+overflow:hidden;
+position:absolute;
+visibility:hidden;
+}
+.ss .ss_slide .swipe_instruction {
+color:#fff;
+background:#000;
+opacity:0.7;
+display:none;
+width:100%; 
+position:absolute;
+padding:6px;
+height:18px;
+top:0px;
+}
+.ss .ss_slide img.ss_slide_image {
+width:100%;
+}
+.landscape .ss .ss_slide img.ss_slide_image {
+display:85%;
+}
+.ss .ss_slide .ss_slide_text {
+text-align:left;	
+}
+.ss .ss_slide p, .ss .ss_slide h3  {
+margin:10px 0;
+}
+.ss .ss_slide p  {
+line-height:17px;
+}
+.ss .ss_slide h3 {
+font-weight:bold;
+}
+.ss .ss_head {
+min-height:33px;
+margin:0 -10px;
+position:relative;
+padding:15px 32px;
+}
+.ss .ss_head h2 {
+font-size:105%;
+line-height:16px;
+float:left;
+width:83%;
+}
+/* num is not part of nav by design so the arrow can float on top of the numbering and be clickable */
+.ss .ss_head .ss_num {
+font-size:105%;
+float:right;
+line-height:16px;
+text-align:right;
+width:38px;
+visibility:hidden;
+}
+.ss .ss_head .ss_nav {
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+visibility:hidden;
+}
+.ss .ss_head .ss_nav_prev {
+display:none;
+float:left;
+padding:16px 20px 16px 10px;
+}
+.ss .ss_head .ss_nav_next{
+display:block;
+float:right;
+padding:16px 10px 16px 20px;
+}
+.ss .ss_head .arrow_left {
+border-top: 14px solid transparent;
+border-bottom: 14px solid transparent;
+border-right: 14px solid #CC6633;
+text-indent:-10000px;
+}
+.ss .ss_head .arrow_right {
+border-top: 14px solid transparent;
+border-bottom: 14px solid transparent;
+border-left: 14px solid #CC6633;
+text-indent:-10000px;
+}
+.ss .ss_head .ss_nav a {
+cursor:pointer;
+}
+.last_slide h4 {
+font-size:110%;
+}
+.last_slide_tile {
+background:#575757;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.4,#575757), color-stop(0.9,#323232));
+-webkit-border-radius: 5px;
+margin:10px 0;
+padding:10px;
+}
+.last_slide_tile .image {
+float:left;
+width:35%;
+}
+.last_slide_tile .text {
+font-size:110%;
+margin:20px 0 0 0px;
+float:left;
+width:65%;
+}
+.last_slide_tile .text a {
+display:block;
+}
+.seamless_ss {	
+margin:20px 0 10px;
+padding:20px;
+background:#1d1d1d;
+text-align:center;
+}
+.seamless_ss h3 {
+font-size:120%;
+}
+
+.attribution {
+clear:both;
+}
+.attribution p {
+color:#fff;
+font-size:80%;
+margin:8px 0;
+}
+/* START dropdown inside of a slideshow */
+
+.dropdown_wrap .dropdown {
+color:#333;
+background:none;
+border:none;
+padding:0;
+margin:0;
+}
+.dropdown_wrap .header {
+color:#fff;
+font-size:80%;
+padding:0;
+width:90px;
+}
+.dropdown_wrap .arrow_up, .dropdown_wrap .arrow_down {
+display:block;
+float:right;
+margin:5px 0 0 7px;
+}
+.dropdown_wrap .dropdown_content {
+background:none;
+border:none;
+display:none;
+}
+.dropdown_wrap ul {
+margin:8px 10px 12px;
+}
+.dropdown_wrap ul li {
+list-style:none;
+}
+.dropdown_wrap a {
+display: block;
+height: 100%;
+padding:8px 0 7px 0;
+width: 100%;
+}
+.dropdown_wrap .bottom {
+border-bottom:1px solid #e3e3e3;
+height:5px;
+margin:0px -10px 0 -10px;
+}
+/* END dropdown inside of a slideshow  */
+/* END Mobile Slideshow */
+
+
+
+
+
+
+
+
+
+
+
+

@@ -117,6 +117,37 @@
 			    }
 
 			    // Setup Nav.
+
+			    $('li.nav-webmd').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
+			        $('#app-theheart,#app-medscape,#app-babyapp').hide();
+			        $('#app-webmd').show();
+			        $(this).addClass('selected').siblings().removeClass('selected');
+			        dlAssign($('#app-webmd a').attr('href'));
+			        return wmdPageLink('mble-list_wbmd');
+				});
+				$('li.nav-babyapp').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
+			        $('#app-theheart,#app-medscape,#app-webmd').hide();
+			        $('#app-babyapp').show();
+			        $(this).addClass('selected').siblings().removeClass('selected');
+			        dlAssign($('#app-babyapp a').attr('href'));
+			        return wmdPageLink('mble-list_bby');
+				});
+				$('li.nav-theheart').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
+			        $('#app-webmd,#app-medscape,#app-babyapp').hide();
+			        $('#app-theheart').show();
+			        $(this).addClass('selected').siblings().removeClass('selected');
+			        dlAssign($('#app-theheart a').attr('href'));
+			        return wmdPageLink('mble-list_tho');
+				});
+				$('li.nav-medscape').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
+			        $('#app-theheart,#app-webmd,#app-babyapp').hide();
+			        $('#app-medscape').show();
+			        $(this).addClass('selected').siblings().removeClass('selected');
+			        dlAssign($('#app-medscape a').attr('href'));
+			        return wmdPageLink('mble-list_mds');
+				});
+
+				/*
 			    $('li.nav-webmd').click(function () {
 			        $('#app-theheart,#app-medscape,#app-babyapp').hide();
 			        $('#app-webmd').show();
@@ -128,23 +159,24 @@
 			        $('#app-theheart,#app-medscape,#app-webmd').hide();
 			        $('#app-babyapp').show();
 			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-babyapp a.apple').attr('href'));
+			        dlAssign($('#app-babyapp a').attr('href'));
 			        return wmdPageLink('mble-list_bby');
 			    })
 			    $('li.nav-theheart').click(function () {
 			        $('#app-webmd,#app-medscape,#app-babyapp').hide();
 			        $('#app-theheart').show();
 			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-theheart a.apple').attr('href'));
+			        dlAssign($('#app-theheart a').attr('href'));
 			        return wmdPageLink('mble-list_tho');
 			    })
 			    $('li.nav-medscape').click(function () {
 			        $('#app-theheart,#app-webmd,#app-babyapp').hide();
 			        $('#app-medscape').show();
 			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-medscape a.apple').attr('href'));
+			        dlAssign($('#app-medscape a').attr('href'));
 			        return wmdPageLink('mble-list_mds');
 			    })
+			    */
 
 
 			    $('a.apple,a.android,a.blackberry').hide();

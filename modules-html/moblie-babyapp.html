@@ -1,0 +1,122 @@
+		<h1 class="page-title">WebMD Baby App</h1>
+		<div class="baby-app">
+
+		<section>
+			<h1>WebMD Baby</h1>
+			<h2>The app that does more than keep your family informed. It keeps <strong>YOU</strong> informed. To keep your baby <em>healthy</em>.</h2>
+			
+			<a href="http://itunes.com/apps/webmdbaby" onclick="return sl(this,'nw','lnch-baby-app_1');" class="action-items">
+				<img class="store-logo" src="{IMAGE_SERVER_URL}/webmd/consumer_assets/site_images/mobile/baby_app/landing/images/ios-app-store.png" alt="Available on the App Store" />
+			</a>
+			
+			<a href="http://itunes.com/apps/webmdbaby" onclick="return sl(this,'nw','lnch-baby-app_2');" class="action-items">
+				<img class="download-button" src="{IMAGE_SERVER_URL}/webmd/consumer_assets/site_images/mobile/baby_app/landing/images/free-download.png" alt="Free Download" />
+			</a>
+		
+		<div class="clearingDiv clearfix"></div>
+		<div class="advertisement_fmt">Advertisement</div>
+
+		</section>
+
+		</div>	
+	
+	<div id="feature_vid_rdr">
+		<div class="works_rdr">
+			<h2>How it Works</h2>
+			<a href="a-to-z-guides/video/baby-app-store" onclick="return sl(this,'nw','bbyapp_1');">
+				<span class="vid_rdr"><img src="{IMAGE_SERVER_URL}/webmd/consumer_assets/site_images/mobile/baby_app/landing/images/vid_works.jpg" alt="Play How it Works Video" /></span>
+				<span class="vid_txt">Access hundreds of articles and videos developed and approved by WebMD doctors.<em class="ico"></em></span>
+			</a>
+		</div>
+		<div class="book_rdr">
+			<h2>The Baby Book</h2>
+			<a href="a-to-z-guides/video/baby-book-store" onclick="return sl(this,'nw','bbyapp_2');">
+				<span class="vid_rdr"><img src="{IMAGE_SERVER_URL}/webmd/consumer_assets/site_images/mobile/baby_app/landing/images/vid_book.jpg" alt="Play The Baby Book Video" /></span>
+				<span class="vid_txt">Take pictures, record videos, and create a baby book to capture all the precious moments.<em class="ico"></em></span>
+			</a>
+		</div>
+	</div>
+	<div id="app_slide_main_rdr">
+		<div id="app_slide_rdr">
+			<div class="ss">
+				<div class="slide">
+					<p><img src="{IMAGE_SERVER_URL}/webmd/consumer_assets/site_images/mobile/baby_app/landing/images/babyscreen1.jpg" alt="WebMD Baby App - Start Page"/></p>
+				</div>
+				<div class="slide">
+					<p><img src="{IMAGE_SERVER_URL}/webmd/consumer_assets/site_images/mobile/baby_app/landing/images/babyscreen2.jpg" alt="WebMD Baby App - Baby Book" /></p>
+				</div>
+				<div class="slide">
+					<p><img src="{IMAGE_SERVER_URL}/webmd/consumer_assets/site_images/mobile/baby_app/landing/images/babyscreen3.jpg" alt="WebMD Baby App - Baby 101" /></p>
+				</div>
+			</div>
+		</div>
+		<div id="circles">
+		</div>
+		<div id="arrow_nav">
+			<a href="#" id="arrow_prev"><span></span></a>
+			<a href="#" id="arrow_next"><span></span></a>
+		</div>
+	</div>
+	
+		<script language="JavaScript1.2" type="text/javascript">
+		webmd.m.mobileBabySwipe=webmd.object(webmd.m.swipeshow,{
+			
+			/* gets called after init by webmd.m.swipeshow */
+			dSlides:function() {
+				this._buildNav();
+				this._setNav();
+				return this;
+			},
+			
+			/* gets called after every slide transition by webmd.m.swipeshow */
+			fAfter:function(){
+				this._setNav();
+				return this;
+			},
+			
+			_buildNav:function(){
+				var self=this;
+				var slides = $('.slide','#app_slide_rdr');
+				
+				$(slides).each(function(){
+					$('<span class="circle">&nbsp;</span>').appendTo('#circles');
+				});
+				
+				//todo: set proper omniture vals
+				$("#arrow_prev").click(function(e){e.preventDefault(); self.trans("-1"); clearInterval(self._autoInterval); wmdPageLink('ss_prev'); return false;});
+				$("#arrow_next").click(function(e){e.preventDefault(); self.trans("+1"); clearInterval(self._autoInterval); wmdPageLink('ss_next'); return false;});
+			},
+						
+			/* gets called by dSlides, which is called at the end of init and by fAfter */
+			_setNav:function(){
+				var current = this.current
+				var circles = $('#circles').find('.circle');
+				circles.each(function(i){
+					if(i == [current]){
+						$(this).addClass('circle_on');
+					}else{
+						$(this).removeClass('circle_on');
+					}
+				});
+				
+				$("a","#arrow_nav").show();
+				if(this.current == 0) {
+					$("#arrow_prev").hide();
+				}
+				if((this.current+1) == this.slides.length) {
+					$("#arrow_next").hide();
+				}
+			}
+		});
+		
+		$(function() {
+			$("#app_slide_rdr .ss").each(function(){
+				var ss=webmd.object(webmd.m.mobileBabySwipe,{container:this});
+				ss.init(); 
+				// wakes up iphone so it responds to swipes faster
+				ss.resetOrientation();
+				ss.trans('0');
+			})
+		});
+
+		</script>
