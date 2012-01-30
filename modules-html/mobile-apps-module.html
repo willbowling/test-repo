@@ -105,105 +105,138 @@
 
 		<script type="text/javascript">
 			$(window).load(function () {
-			    // Show the first Content.
-			    $('#app-webmd').show();
-			    $('.app-nav li.nav-webmd').addClass('selected');
-			    dlAssign($('section:first a:first').attr('href'));
+				
+				webmd.m.mobileCPApps = {
+					
+					//global vars
+					defaults:{
+						appName: 'webmd',
+						appObj:{},
+						device: (webmd.useragent.getDevice() === 'pc') ? 'iphone' : webmd.useragent.getDevice()
+					},
+					
+					//mapping of apps, classes and devices supported
+					appMap:{
+						"apps":[
+							{
+								class:'webmd',
+								appID:'wbmd',
+								devices:['android', 'ipad','iphone']
+							},
+							{
+								class:'babyapp',
+								appID:'bby',
+								devices:['iphone']
+							},
+							{
+								class:'theheart',
+								appID:'tho',
+								devices:['iphone']
+							},
+							{
+								class:'medscape',
+								appID:'mds',
+								devices:['android','blackberry','ipad','iphone']
+							}
+						]
+					},
+					
+					init:function(){
+						var _self = this;
+	
+						$('#app-webmd').show();
+						$('.app-nav li.nav-webmd').addClass('selected');
+						
+						$('a.apple,a.android,a.blackberry').hide();
 
-			    function dlAssign (url) {
-			    	$('.download a').attr('href', url).click(function() {
-			            return sl(this, '', 'mbl-download_' + appID);
-			        });
-			    }
-
-			    // Setup Nav.
-
-			    // $('li.nav-webmd').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
-			    $('li.nav-webmd').bind('touchend', function( event ) {
-			        $('#app-theheart,#app-medscape,#app-babyapp').hide();
-			        $('#app-webmd').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-webmd a').attr('href'));
-			        wmdPageLink('mble-list_wbmd');
-			        return false;
-				});
-				$('li.nav-babyapp').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
-			        $('#app-theheart,#app-medscape,#app-webmd').hide();
-			        $('#app-babyapp').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-babyapp a').attr('href'));
-			        return wmdPageLink('mble-list_bby');
-				});
-				$('li.nav-theheart').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
-			        $('#app-webmd,#app-medscape,#app-babyapp').hide();
-			        $('#app-theheart').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-theheart a').attr('href'));
-			        return wmdPageLink('mble-list_tho');
-				});
-				$('li.nav-medscape').bind('touchstart', function( event ) { event.preventDefault(); } ).bind( 'touchend', function( event ) {
-			        $('#app-theheart,#app-webmd,#app-babyapp').hide();
-			        $('#app-medscape').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-medscape a').attr('href'));
-			        return wmdPageLink('mble-list_mds');
-				});
-
-				/*
-			    $('li.nav-webmd').click(function () {
-			        $('#app-theheart,#app-medscape,#app-babyapp').hide();
-			        $('#app-webmd').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-webmd a').attr('href'));
-			        return wmdPageLink('mble-list_wbmd');
-			    })
-			    $('li.nav-babyapp').click(function () {
-			        $('#app-theheart,#app-medscape,#app-webmd').hide();
-			        $('#app-babyapp').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-babyapp a').attr('href'));
-			        return wmdPageLink('mble-list_bby');
-			    })
-			    $('li.nav-theheart').click(function () {
-			        $('#app-webmd,#app-medscape,#app-babyapp').hide();
-			        $('#app-theheart').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-theheart a').attr('href'));
-			        return wmdPageLink('mble-list_tho');
-			    })
-			    $('li.nav-medscape').click(function () {
-			        $('#app-theheart,#app-webmd,#app-babyapp').hide();
-			        $('#app-medscape').show();
-			        $(this).addClass('selected').siblings().removeClass('selected');
-			        dlAssign($('#app-medscape a').attr('href'));
-			        return wmdPageLink('mble-list_mds');
-			    })
-			    */
-
-
-			    $('a.apple,a.android,a.blackberry').hide();
-
-			    // If device is an iPhone ----
-			    if (webmd.useragent.getDevice() === 'iphone' || webmd.useragent.getDevice() === 'pc') {
-			        $('a.apple').show();
-			        $('a.android,a.blackberry').remove();
-			    }
-
-			    // If device is an Android ----
-			    if (webmd.useragent.getDevice() === 'android') {
-			        $('a.android').show();
-			        $('a.apple,a.blackberry').remove();
-			    }
-
-			    // If device is a Blackberry ----
-			    // Todo - need to add new webmd.useragent script to dctm
-			    if (webmd.useragent.getDevice() === 'blackberry') {
-			        $('a.blackberry').show();
-			        $('a.apple,a.android').remove();
-			    }
-
-
-
+						// If device is an iPhone ----
+						if (_self.defaults.device === 'iphone') {
+							$('a.apple').show();
+							$('a.android,a.blackberry').remove();
+						}
+		
+						// If device is an Android ----
+						if (_self.defaults.device === 'android') {
+							$('a.android').show();
+							$('a.apple,a.blackberry').remove();
+						}
+		
+						// If device is a Blackberry ----
+						// Todo - need to add new webmd.useragent script to dctm
+						if (_self.defaults.device === 'blackberry') {
+							$('a.blackberry').show();
+							$('a.apple,a.android').remove();
+						}
+						
+						_self.dlAssign($('section:first a:first').attr('href'));
+						_self.setNav();
+					},
+					
+					setNav:function(){
+						//Assigns function to click event on each of the app icons.
+						var _self = this;
+						
+						$('.app-nav li').click(function (e) {
+							e.preventDefault();
+							_self.defaults.appName = $(this).attr('class').replace('nav-','').replace(' selected','');
+							$('#app-webmd, #app-theheart,#app-medscape,#app-babyapp').hide();
+							$('#app-'+_self.defaults.appName).show();
+							$(this).addClass('selected').siblings().removeClass('selected'); 
+							
+							//assign download button actions
+							_self.dlAssign();
+							
+							return wmdPageLink('mble-list_'+_self.defaults.appObj[0].appID);
+						})
+												
+					},
+					
+					dlAssign:function(){
+						var _self = this;
+						var url = $('#app-'+_self.defaults.appName+' a').attr('href');
+						
+						//sets current app from app map
+						_self.defaults.appObj = _self.getObjects(_self.appMap, 'class', _self.defaults.appName);
+						
+						//checks to see if useragent device is in supported apps array
+						if($.inArray(_self.defaults.device, _self.defaults.appObj[0].devices) != -1){
+							$('.download a').attr('href', url)
+								.html('Download')
+								.unbind('click').click(function() {
+									return sl(this, '', 'mbl-download_' + _self.defaults.appObj[0].appID);
+								});
+							$('.download').removeClass('dlDisabled');
+						}else{
+							$('.download a').attr('href', '#')
+								.html('Coming Soon')
+								.unbind('click').click(function(e) {
+									e.preventDefault();
+								});
+							$('.download').addClass('dlDisabled');
+						}
+					},
+					
+					getObjects:function(obj, key, val) {
+						//finds if string is in object key, similar to inarray. returns matched object
+						var _self = this;
+						var objects = [];
+						for (var i in obj) {
+							if (!obj.hasOwnProperty(i)) continue;
+							if (typeof obj[i] == 'object') {
+								objects = objects.concat(_self.getObjects(obj[i], key, val));
+							} else if (i == key && obj[key] == val) {
+								objects.push(obj);
+							}
+						}
+						return objects;
+					}
+		
+				}
+				
+				//load webmd.m.mobileCPApps in object and calls it's init function
+				var mobileCPApps=webmd.object(webmd.m.mobileCPApps);
+				mobileCPApps.init(); 
+				
 			});
 
 		</script>
