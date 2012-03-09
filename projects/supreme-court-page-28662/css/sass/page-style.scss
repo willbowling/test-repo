@@ -1,6 +1,13 @@
 
 $radius: 10px;
 $border: 1px solid #cdcdcd;
+$green: #85a901; /* green */ 
+$grey: #414141; /* dark grey */
+$blue: #0a6fa7; /* light blue */
+
+$fontsize1: 30px;
+$fontsize2: 18px;
+$fontsize3: 30px;
 
 @mixin rounded-corners {
 	-webkit-border-radius: $radius;
@@ -16,13 +23,14 @@ $border: 1px solid #cdcdcd;
 	padding: 20px;
 }
 
-#special-report {
-
+@mixin blue-gradient {
 	background-image: linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 85%);
 	background-image: -o-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 85%);
 	background-image: -moz-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 85%);
 	background-image: -webkit-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 85%);
 	background-image: -ms-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa')"; /* IE8+ */
 
 	background-image: -webkit-gradient(
 		linear,
@@ -32,28 +40,154 @@ $border: 1px solid #cdcdcd;
 		color-stop(0.85, rgb(255,255,255))
 	);
 
+} 
+@mixin lt-blue-gradient {
+	background-image: linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 85%);
+	background-image: -o-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 85%);
+	background-image: -moz-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 85%);
+	background-image: -webkit-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 85%);
+	background-image: -ms-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa')"; /* IE8+ */
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(239,249,250)),
+		color-stop(0.85, rgb(255,255,255))
+	);
+
+} 
+
+#special-report {
+
+
+	margin-right:20px;
 	
 	@include rounded-corners;
 	@include inner-shadow;
+	@include blue-gradient;
 
+	h1 {
+		font-size: $fontsize1;
+		color: $green;
+		margin: 0 0 5px;
+		font-weight:normal;
+	}
+	h2 {
+		font-size: $fontsize2;
+		color: $grey;
+		margin: 0 0 20px;
+		font-weight:normal;
+	}
 
 	ul.supreme-nav{
 		list-style-type: none;
 		text-align: center;
 		padding:0;
+		margin-bottom:20px;
 		li {
 			display: inline-block;
 			text-align: center;
 			margin: 0 10px;
+			width:105px;
+			word-wrap: word;
+			vertical-align: top;
+
 			img:hover {opacity:0.7;}
 
+			a {
+				color: $blue;
+				font-weight: bold;
+				
+				display: block;
+				width: 105px;
+				overflow: hidden;
+				background-image: url('../../images/icons-supreme-sprite.png');
+				background-repeat: no-repeat;
+
+				padding-top: 100px;
+
+
+				&:hover {color: $green; text-decoration:none;}
+				&:visited {color: $blue;}
+				&:active {color: $green;}
+				&.selected {color: $green;}
+
+				&.icon-1 			{background-position: 0px 0px;}
+				&.icon-1.on 		{background-position: -115px 0px;}
+				&.icon-2 			{background-position: -230px 0px;}
+				&.icon-2.on 		{background-position: -345px 0px;}
+				&.icon-3 			{background-position: -460px 0px;}
+				&.icon-3.on 		{background-position: -575px 0px;}
+				&.icon-4 			{background-position: -690px 0px;}
+				&.icon-4.on 		{background-position: -805px 0px;}
+/*
+				&.icon-1 			{background-position: 0px 0px;}
+				&.icon-1-on 		{background-position: -115px 0px;}
+				&.icon-2 			{background-position: -230px 0px;}
+				&.icon-2-on 		{background-position: -345px 0px;}
+				&.icon-3 			{background-position: -460px 0px;}
+				&.icon-3-on 		{background-position: -575px 0px;}
+				&.icon-4 			{background-position: -690px 0px;}
+				&.icon-4-on 		{background-position: -805px 0px;}
+*/
+			}
 		}
 	}
 
-	.slide-1 {
+	.content {
+
+		h3 {margin:10px 0 5px;}
+		p {margin: 3px 0 10px;}
+		overflow: hidden;
+		color: $grey;
+		.prev {
+			float: left;
+			margin-top: 20%;
+		}
+		.next {
+			float: right;
+			margin-top: 20%;
+		}
+
+		.slides {
+			@include rounded-corners;
+			@include inner-shadow;
+			@include lt-blue-gradient;
+			margin: 10px 50px;
+			display: none;
+		}
+
+		.sources {
+			font-size: 9px;
+			font-style: italic;
+		}
+
+		.backLink {margin-top:40px;}
+	}
+
+	.position {
 		@include rounded-corners;
 		@include inner-shadow;
+		background: #fff;
+		width: 170px;
+		min-height: 130px;
+		display: inline-block;
+		vertical-align:top;
+		padding: 5px 20px;
+		margin: 10px 0;
+
+		&.one {
+			margin-right:10px;
+		}
+
+		li {
+			padding-bottom: 5px ;
+		}
 	}
+
 
 
 }
