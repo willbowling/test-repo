@@ -157,6 +157,9 @@ $fontsize3: 30px;
 		}
 
 		.backLink {margin-top:40px;font-weight:bold;}
+		.slide3 .position {
+			min-height: 390px;
+		}
 	}
 
 	.position {
@@ -178,7 +181,6 @@ $fontsize3: 30px;
 			padding-bottom: 5px ;
 		}
 	}
-
-
-
 }
+@import 'icons'; // imports _icons.scss
+@include icons; // applies _icons.scss mixin
