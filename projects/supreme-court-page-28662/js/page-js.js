@@ -40,6 +40,7 @@ $(function () {
         $('.slides.slide1').show();
         hideNav();
         $('.content a.next').show();
+        wmdPageLink('hlt-rfrm-nav_1');
         e.preventDefault();
     });
 
@@ -49,6 +50,7 @@ $(function () {
         $(this).addClass('on selected');
         $('.slides.slide2').show();
         hideNav();
+        wmdPageLink('hlt-rfrm-nav_2');
         e.preventDefault();
     });
 
@@ -58,6 +60,7 @@ $(function () {
         $(this).addClass('on selected');
         $('.slides.slide3').show();
         hideNav();
+        wmdPageLink('hlt-rfrm-nav_3');
         e.preventDefault();
     });
 
@@ -68,6 +71,7 @@ $(function () {
         $('.slides.slide4').show();
         hideNav();
         $('.content a.prev').show();
+        wmdPageLink('hlt-rfrm-nav_4');
         e.preventDefault();
     });
 
