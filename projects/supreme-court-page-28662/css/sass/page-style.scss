@@ -88,7 +88,7 @@ $fontsize3: 30px;
 		text-align: center;
 		padding:0;
 		margin-bottom:20px;
-		margin-left: 50px;
+		margin-left: 40px;
 		li {
 			display: block;
 			float:left;
@@ -136,17 +136,11 @@ $fontsize3: 30px;
 		p {margin: 3px 0 15px;}
 		overflow: hidden;
 		clear:both;
-		margin-top: 180px;
+		margin-top: 190px;
 		color: $grey;
-		.prev {
-			float: left;
-			margin-top: 20%;
-		}
-		.next {
-			float: right;
-			margin-top: 20%;
-		}
-
+		.prev, .next {padding: 10% 0;}
+		.prev {float: left;}
+		.next {float: right;}
 		.slides {
 			@include rounded-corners;
 			@include inner-shadow;
@@ -163,16 +157,16 @@ $fontsize3: 30px;
 
 		.backLink {margin-top:40px;font-weight:bold;}
 		.slide3 .position {
-			min-height: 390px;
+			min-height: 410px;
 		}
 	}
 
 	.position {
-		@include rounded-corners;
+		@include rounded-corners; 
 		@include inner-shadow;
 		background: #fff;
 		width: 170px;
-		min-height: 130px;
+		min-height: 140px;
 		display: block;
 		float: left;
 		vertical-align:top;
