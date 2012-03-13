@@ -2,7 +2,6 @@ $(function() {
 
 	$('li a.icon-1','.supreme-nav').addClass('on selected');
 	$('.slides:first','.content').show()
-	$('.slides h3:first','.content').css('margin','0 0 5px');
 	$('.content a.prev').show();
 	$('.content a.next').show();
 

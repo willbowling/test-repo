@@ -29,7 +29,7 @@ $fontsize3: 30px;
 	background-image: -o-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
 	background-image: -moz-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
 	background-image: -webkit-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
-	background-image: -ms-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
+	background-image: -ms-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 80%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa'); /* IE6 & IE7 */
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa')"; /* IE8+ */
 
@@ -47,7 +47,7 @@ $fontsize3: 30px;
 	background-image: -o-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
 	background-image: -moz-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
 	background-image: -webkit-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
-	background-image: -ms-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
+	background-image: -ms-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 80%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa'); /* IE6 & IE7 */
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa')"; /* IE8+ */
 
@@ -88,12 +88,14 @@ $fontsize3: 30px;
 		text-align: center;
 		padding:0;
 		margin-bottom:20px;
+		margin-left: 50px;
 		li {
-			display: inline-block;
+			display: block;
+			float:left;
 			text-align: center;
+			overflow: visible;
 			margin: 0 10px;
 			width:105px;
-			word-wrap: word;
 			vertical-align: top;
 
 			img:hover {opacity:0.7;}
@@ -104,7 +106,7 @@ $fontsize3: 30px;
 				
 				display: block;
 				width: 105px;
-				overflow: hidden;
+				height: 50px;
 				background-image: url('../../images/icons-supreme-sprite.png');
 				background-repeat: no-repeat;
 
@@ -114,7 +116,7 @@ $fontsize3: 30px;
 				&:hover {color: $green; text-decoration:none;}
 				&:visited {color: $blue;}
 				&:active {color: $green;}
-				&.selected {color: $green;}
+				&.selected {color: $green !important;}
 
 				&.icon-1 			{background-position: 0px 0px;}
 				&.icon-1.on 		{background-position: -115px 0px;}
@@ -130,9 +132,11 @@ $fontsize3: 30px;
 
 	.content {
 
-		h3 {margin:10px 0 5px;}
-		p {margin: 3px 0 10px;}
+		h3 {margin:0 0 5px;}
+		p {margin: 3px 0 15px;}
 		overflow: hidden;
+		clear:both;
+		margin-top: 180px;
 		color: $grey;
 		.prev {
 			float: left;
@@ -152,8 +156,9 @@ $fontsize3: 30px;
 		}
 
 		.sources {
-			font-size: 9px;
+			font-size: 8px;
 			font-style: italic;
+			margin-top: 40px;
 		}
 
 		.backLink {margin-top:40px;font-weight:bold;}
@@ -168,10 +173,11 @@ $fontsize3: 30px;
 		background: #fff;
 		width: 170px;
 		min-height: 130px;
-		display: inline-block;
+		display: block;
+		float: left;
 		vertical-align:top;
 		padding: 5px 20px;
-		margin: 10px 0;
+		margin: 10px 0 20px;
 
 		&.one {
 			margin-right:10px;
