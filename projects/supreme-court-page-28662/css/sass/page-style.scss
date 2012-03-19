@@ -1,9 +1,19 @@
 
+/*
+*
+* !! Do NOT EDIT !!
+* This file was compiled via SASS/SCSS and should/can be found in SVN
+* Ask Will Bowling for locations etc.
+*
+*/
+// @import "compass/utilities/general/min";
+@import 'icons'; // imports _icons.scss
+
 $radius: 10px;
 $border: 1px solid #cdcdcd;
-$green: #85a901; /* green */ 
-$grey: #414141; /* dark grey */
-$blue: #0a6fa7; /* light blue */
+$green: #85a901; // green
+$grey: #414141; // dark grey
+$blue: #0a6fa7; // light blue
 $color-stop: 50%;
 
 $fontsize1: 30px;
@@ -25,50 +35,77 @@ $fontsize3: 30px;
 }
 
 @mixin blue-gradient {
-	background-image: linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
-	background-image: -o-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
-	background-image: -moz-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
-	background-image: -webkit-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 50%);
-	background-image: -ms-linear-gradient(bottom, rgb(200,235,237) 0%, rgb(255,255,255) 80%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa'); /* IE6 & IE7 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa')"; /* IE8+ */
-
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eff9fa',GradientType=0 ); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eff9fa')"; /* IE8+ */
+	background-image: linear-gradient(bottom, #c8ebed 0%, white 50%);
+	background-image: -o-linear-gradient(bottom, #c8ebed 0%, white 50%);
+	background-image: -moz-linear-gradient(bottom, #c8ebed 0%, white 50%);
+	background-image: -webkit-linear-gradient(bottom, #c8ebed 0%, white 50%);
+	background-image: -ms-linear-gradient(bottom, #c8ebed 0%, white 80%);
 	background-image: -webkit-gradient(
 		linear,
 		left bottom,
 		left 30%,
-		color-stop(0, rgb(200,235,237)),
-		color-stop(0.50, rgb(255,255,255))
+		color-stop(0, #c8ebed),
+		color-stop(0.50, #fff)
 	);
+// background: #999; /* for non-css3 browsers */
 
-} 
+// filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+// background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+// background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */
+// -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc')"; /* IE8+ */
+
+}
 @mixin lt-blue-gradient {
-	background-image: linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
-	background-image: -o-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
-	background-image: -moz-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
-	background-image: -webkit-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 50%);
-	background-image: -ms-linear-gradient(bottom, rgb(239,249,250) 0%, rgb(255,255,255) 80%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa'); /* IE6 & IE7 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1fafa')"; /* IE8+ */
-
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eff9fa',GradientType=0 ); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eff9fa')"; /* IE8+ */
+	background-image: linear-gradient(bottom, #eff9fa 0%, white 50%);
+	background-image: -o-linear-gradient(bottom, #eff9fa 0%, white 50%);
+	background-image: -moz-linear-gradient(bottom, #eff9fa 0%, white 50%);
+	background-image: -webkit-linear-gradient(bottom, #eff9fa 0%, white 50%);
+	background-image: -ms-linear-gradient(bottom, #eff9fa 0%, white 80%);
 	background-image: -webkit-gradient(
 		linear,
 		left bottom,
 		left top,
-		color-stop(0, rgb(239,249,250)),
-		color-stop(0.50, rgb(255,255,255))
+		color-stop(0, #eff9fa),
+		color-stop(0.50, #fff)
 	);
+// background: #999; /* for non-css3 browsers */
 
-} 
+// filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+// background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+// background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */
+// -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc')"; /* IE8+ */
+
+
+
+}
+
+.topic_tv_promo {
+	margin: 8px 0 5px;
+	.watch_vid_btn {
+    	background: url('../../../consumer_assets/site_images/miscellaneous/breaking_news/rr_supreme_court_wtch_vid_btn.png') no-repeat scroll left top transparent;
+		height:27px;
+		width:91px;
+	}
+	a {color: #0a6fa7 !important;}
+	.vid_info {
+		font-size: 12px;
+		width:125px;
+	}
+}
+
 
 #special-report {
-
-
 	margin-right:20px;
-	
 	@include rounded-corners;
 	@include inner-shadow;
 	@include blue-gradient;
+	min-height:900px;
+	height:auto !important;
+ 	height:900px;
 
 	h1 {
 		font-size: $fontsize1;
@@ -82,7 +119,6 @@ $fontsize3: 30px;
 		margin: 0 0 20px;
 		font-weight:normal;
 	}
-
 	ul.supreme-nav{
 		list-style-type: none;
 		text-align: center;
@@ -97,22 +133,17 @@ $fontsize3: 30px;
 			margin: 0 10px;
 			width:105px;
 			vertical-align: top;
-
 			img:hover {opacity:0.7;}
-
 			a {
 				color: $blue;
 				font-weight: bold;
-				
 				display: block;
 				width: 105px;
 				height: 50px;
-				background-image: url('../../images/icons-supreme-sprite.png');
+				// background-image: url('../../images/icons-supreme-sprite.png');
+				background-image: url('../../../consumer_assets/site_images/miscellaneous/breaking_news/icons-supreme-sprite.png');
 				background-repeat: no-repeat;
-
 				padding-top: 100px;
-
-
 				&:hover {color: $green; text-decoration:none;}
 				&:visited {color: $blue;}
 				&:active {color: $green;}
@@ -129,9 +160,7 @@ $fontsize3: 30px;
 			}
 		}
 	}
-
 	.content {
-
 		h3 {margin:0 0 5px;}
 		p {margin: 3px 0 15px;}
 		overflow: hidden;
@@ -147,14 +176,14 @@ $fontsize3: 30px;
 			@include lt-blue-gradient;
 			margin: 10px 50px;
 			display: none;
+			hr.clearfix {clear:both; height:0; visibility:hidden;}
 		}
-
 		.sources {
 			font-size: 8px;
 			font-style: italic;
 			margin-top: 40px;
+			clear:both;
 		}
-
 		.backLink {margin-top:40px;font-weight:bold;}
 		.slide3 .position {
 			min-height: 410px;
@@ -162,7 +191,7 @@ $fontsize3: 30px;
 	}
 
 	.position {
-		@include rounded-corners; 
+		@include rounded-corners;
 		@include inner-shadow;
 		background: #fff;
 		width: 170px;
@@ -172,15 +201,12 @@ $fontsize3: 30px;
 		vertical-align:top;
 		padding: 5px 20px;
 		margin: 10px 0 20px;
-
 		&.one {
 			margin-right:10px;
 		}
-
 		li {
 			padding-bottom: 5px ;
 		}
 	}
 }
-@import 'icons'; // imports _icons.scss
 @include icons; // applies _icons.scss mixin
