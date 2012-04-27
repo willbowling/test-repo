@@ -1,0 +1,188 @@
+/* /webmd/PageBuilder_Assets/CSS/HTML/HTML/a to z overall glossary_091e9c5e8002604c.css */
+
+/*-------  The Overall Glossary  -----------*/
+
+.wc_overallHealthGlossary_rdr {
+  width: 494px;
+  .topBorder_fmt {
+	// background: url("../../../consumer_assets/site_images/modules/hc_glossary_top2.gif");
+	font-size: 1%;
+	height: 8px; }
+  .bottomBorder_fmt {
+	// background: url("../../../consumer_assets/site_images/modules/hc_glossary_bottom.gif");
+	clear: both;
+	font-size: 1%;
+	height: 8px; }
+  .AtoZHeading_fmt {
+	background: #8f764f;
+	color: #FFFFFF;
+	font-size: 90%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 1px 0px 6px 9px;
+	text-transform: uppercase; }
+  .AtoZTabs_fmt {
+	background: #8f764f;
+	border-bottom: 1px solid #9c936c;
+	float: left;
+	padding: 4px 0px 0px 4px;
+	width: 490px;
+	border-bottom: none;
+	a {
+	  color: #FFFFFF;
+	  float: left;
+	  font-size: 105%;
+	  font-weight: bold;
+	  height: 22px;
+	  line-height: 20px;
+	  margin: 0px 1px -1px -1px;
+	  text-align: center;
+	  text-decoration: none;
+	  width: 18px;
+	  z-index: 1; } }
+  .MainTab {
+	background: url("../../../consumer_assets/site_images/modules/hc_mainTabBkgd.gif") repeat-y;
+	height: 28px;
+	a {
+	  float: left;
+	  margin: 0px -1px 0px 4px;
+	  text-align: center;
+	  text-decoration: none;
+	  &:active {
+		background: url("../../../consumer_assets/site_images/modules/hc_testsActive.gif") no-repeat;
+		color: #5e431e; } }
+	ul {
+	  list-style: none;
+	  margin: 0px;
+	  padding: 0px; }
+	li {
+	  display: inline;
+	  list-style-type: none; } }
+  .AtoZTabs_fmt {
+	a:hover {
+	  background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab.gif") no-repeat;
+	  color: #5e431e;
+	  width: 18px; }
+	ul {
+	  list-style: none;
+	  margin: 0px;
+	  padding: 0px; }
+	li {
+	  display: inline;
+	  list-style-type: none; } }
+  .AtoZTabs09_fmt a {
+	width: 32px;
+	line-height: 20px;
+	&:hover {
+	  background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab09.gif") no-repeat;
+	  color: #5e431e;
+	  width: 32px; } }
+  .AtoZTabs_fmt {
+	.highlightedTab_fmt {
+	  background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab.gif") no-repeat;
+	  color: #5e431e;
+	  width: 18px; }
+	.highlightedTab09_fmt {
+	  background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab09.gif") no-repeat;
+	  color: #000000;
+	  width: 21px; }
+	.clearhighlightedTab_fmt {
+	  background: #a7bf62;
+	  color: #FFFFFF;
+	  width: 17px; } }
+  .AtoZTabsT2_fmt {
+	background: #d9d1b7;
+	border-left: #c8c1a5 1px solid;
+	border-right: #c8c1a5 1px solid;
+	float: left;
+	height: 25px;
+	margin: 0px;
+	padding: 4px 0px 0px 6px;
+	width: 494px;
+	a {
+	  background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab2B.gif") no-repeat;
+	  color: #FFFFFF;
+	  float: left;
+	  font-size: 90%;
+	  font-weight: bold;
+	  height: 25px;
+	  letter-spacing: 1px;
+	  line-height: 29px;
+	  margin: 0px 1px -4px 1px;
+	  text-align: center;
+	  text-decoration: none;
+	  width: 59px; }
+	.highlightedTab_fmt {
+	  background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab2A.gif") no-repeat;
+	  line-height: 24px;
+	  width: 59px; }
+	.unavailableTab_fmt {
+	  background: url("../../../consumer_assets/site_images/modules/hc_bkgd.gif") no-repeat;
+	  color: #FFFFFF;
+	  font-weight: bold;
+	  text-decoration: none;
+	  width: 50px; }
+	ul {
+	  list-style: none;
+	  margin: 0px;
+	  padding: 0px; }
+	li {
+	  display: inline;
+	  list-style-type: none; } }
+  .AtoZTabs09T2_fmt a {
+	line-height: 21px;
+	width: 23px; }
+  .anchorSpacing_fmt {
+	height: 1px; }
+  .middleContent_fmt {
+	background: #d9d1b7;
+	border-left: #a7bf62 1px solid;
+	border-right: #a7bf62 1px solid;
+	float: left;
+	height: 360px;
+	overflow: hidden;
+	padding: 10px 5px 3px 7px;
+	width: 480px; }
+  &.hcGlossaryContent_fmt {
+	border: 1px solid #b4aa82;
+	background: url("../../../consumer_assets/site_images/modules/hc_overallglossary_bkgd_hor.jpg");
+	background-repeat: repeat-x;
+	clear: both;
+	height: 360px;
+	overflow: auto;
+	width: 475px; }
+  &.hcGlossaryContent_fmt .termCategory {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 7px;
+	padding-left: 6px; }
+  &.hcGlossaryContent_fmt ul {
+	border-right: 1px solid #e9e8e1;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 236px; }
+  &.hcGlossaryContent_fmt ul.lastList {
+	border-right: none; }
+  &.hcGlossaryContent_fmt li {
+	border-bottom: 1px solid #e9e8e1;
+	font-size: 85%;
+	line-height: 16px;
+	padding-left: 6px;
+	white-space: nowrap; }
+  &.hcGlossaryContent_fmt li.lastItem_fmt {
+	border-bottom: none; }
+  &.hcGlossaryContenst_fmt .spacer_fmt {
+	height: 1px; }
+  &.clearBoth_fmt {
+	clear: both; } }
+
+/*.wc_overallHealthGlossary_rdr .AtoZTabs_fmt a:hover {
+background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab.gif") no-repeat;
+color:#5e431e;
+}*/
+
+/*------------------------------------------------------------Tier Two*/
+
+/*------------------------------------------------------------Tier Two*/

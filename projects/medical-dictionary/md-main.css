@@ -1,0 +1,180 @@
+/* /webmd/PageBuilder_Assets/CSS/HTML/HTML/a to z overall glossary_091e9c5e8002604c.css */
+/*-------  The Overall Glossary  -----------*/
+.wc_overallHealthGlossary_rdr {
+  width: 494px; }
+  .wc_overallHealthGlossary_rdr .topBorder_fmt {
+    font-size: 1%;
+    height: 8px; }
+  .wc_overallHealthGlossary_rdr .bottomBorder_fmt {
+    clear: both;
+    font-size: 1%;
+    height: 8px; }
+  .wc_overallHealthGlossary_rdr .AtoZHeading_fmt {
+    background: #8f764f;
+    color: #FFFFFF;
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 1px 0px 6px 9px;
+    text-transform: uppercase; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs_fmt {
+    background: #8f764f;
+    border-bottom: 1px solid #9c936c;
+    float: left;
+    padding: 4px 0px 0px 4px;
+    width: 490px;
+    border-bottom: none; }
+    .wc_overallHealthGlossary_rdr .AtoZTabs_fmt a {
+      color: #FFFFFF;
+      float: left;
+      font-size: 105%;
+      font-weight: bold;
+      height: 22px;
+      line-height: 20px;
+      margin: 0px 1px -1px -1px;
+      text-align: center;
+      text-decoration: none;
+      width: 18px;
+      z-index: 1; }
+  .wc_overallHealthGlossary_rdr .MainTab {
+    background: url("../../../consumer_assets/site_images/modules/hc_mainTabBkgd.gif") repeat-y;
+    height: 28px; }
+    .wc_overallHealthGlossary_rdr .MainTab a {
+      float: left;
+      margin: 0px -1px 0px 4px;
+      text-align: center;
+      text-decoration: none; }
+      .wc_overallHealthGlossary_rdr .MainTab a:active {
+        background: url("../../../consumer_assets/site_images/modules/hc_testsActive.gif") no-repeat;
+        color: #5e431e; }
+    .wc_overallHealthGlossary_rdr .MainTab ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px; }
+    .wc_overallHealthGlossary_rdr .MainTab li {
+      display: inline;
+      list-style-type: none; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs_fmt a:hover {
+    background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab.gif") no-repeat;
+    color: #5e431e;
+    width: 18px; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs_fmt ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs_fmt li {
+    display: inline;
+    list-style-type: none; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs09_fmt a {
+    width: 32px;
+    line-height: 20px; }
+    .wc_overallHealthGlossary_rdr .AtoZTabs09_fmt a:hover {
+      background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab09.gif") no-repeat;
+      color: #5e431e;
+      width: 32px; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs_fmt .highlightedTab_fmt {
+    background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab.gif") no-repeat;
+    color: #5e431e;
+    width: 18px; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs_fmt .highlightedTab09_fmt {
+    background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab09.gif") no-repeat;
+    color: #000000;
+    width: 21px; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs_fmt .clearhighlightedTab_fmt {
+    background: #a7bf62;
+    color: #FFFFFF;
+    width: 17px; }
+  .wc_overallHealthGlossary_rdr .AtoZTabsT2_fmt {
+    background: #d9d1b7;
+    border-left: #c8c1a5 1px solid;
+    border-right: #c8c1a5 1px solid;
+    float: left;
+    height: 25px;
+    margin: 0px;
+    padding: 4px 0px 0px 6px;
+    width: 494px; }
+    .wc_overallHealthGlossary_rdr .AtoZTabsT2_fmt a {
+      background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab2B.gif") no-repeat;
+      color: #FFFFFF;
+      float: left;
+      font-size: 90%;
+      font-weight: bold;
+      height: 25px;
+      letter-spacing: 1px;
+      line-height: 29px;
+      margin: 0px 1px -4px 1px;
+      text-align: center;
+      text-decoration: none;
+      width: 59px; }
+    .wc_overallHealthGlossary_rdr .AtoZTabsT2_fmt .highlightedTab_fmt {
+      background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab2A.gif") no-repeat;
+      line-height: 24px;
+      width: 59px; }
+    .wc_overallHealthGlossary_rdr .AtoZTabsT2_fmt .unavailableTab_fmt {
+      background: url("../../../consumer_assets/site_images/modules/hc_bkgd.gif") no-repeat;
+      color: #FFFFFF;
+      font-weight: bold;
+      text-decoration: none;
+      width: 50px; }
+    .wc_overallHealthGlossary_rdr .AtoZTabsT2_fmt ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px; }
+    .wc_overallHealthGlossary_rdr .AtoZTabsT2_fmt li {
+      display: inline;
+      list-style-type: none; }
+  .wc_overallHealthGlossary_rdr .AtoZTabs09T2_fmt a {
+    line-height: 21px;
+    width: 23px; }
+  .wc_overallHealthGlossary_rdr .anchorSpacing_fmt {
+    height: 1px; }
+  .wc_overallHealthGlossary_rdr .middleContent_fmt {
+    background: #d9d1b7;
+    border-left: #a7bf62 1px solid;
+    border-right: #a7bf62 1px solid;
+    float: left;
+    height: 360px;
+    overflow: hidden;
+    padding: 10px 5px 3px 7px;
+    width: 480px; }
+  .wc_overallHealthGlossary_rdr.hcGlossaryContent_fmt {
+    border: 1px solid #b4aa82;
+    background: url("../../../consumer_assets/site_images/modules/hc_overallglossary_bkgd_hor.jpg");
+    background-repeat: repeat-x;
+    clear: both;
+    height: 360px;
+    overflow: auto;
+    width: 475px; }
+  .wc_overallHealthGlossary_rdr.hcGlossaryContent_fmt .termCategory {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 7px;
+    padding-left: 6px; }
+  .wc_overallHealthGlossary_rdr.hcGlossaryContent_fmt ul {
+    border-right: 1px solid #e9e8e1;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 236px; }
+  .wc_overallHealthGlossary_rdr.hcGlossaryContent_fmt ul.lastList {
+    border-right: none; }
+  .wc_overallHealthGlossary_rdr.hcGlossaryContent_fmt li {
+    border-bottom: 1px solid #e9e8e1;
+    font-size: 85%;
+    line-height: 16px;
+    padding-left: 6px;
+    white-space: nowrap; }
+  .wc_overallHealthGlossary_rdr.hcGlossaryContent_fmt li.lastItem_fmt {
+    border-bottom: none; }
+  .wc_overallHealthGlossary_rdr.hcGlossaryContenst_fmt .spacer_fmt {
+    height: 1px; }
+  .wc_overallHealthGlossary_rdr.clearBoth_fmt {
+    clear: both; }
+
+/*.wc_overallHealthGlossary_rdr .AtoZTabs_fmt a:hover {
+background: url("../../../consumer_assets/site_images/modules/hc_glossary_tab.gif") no-repeat;
+color:#5e431e;
+}*/
+/*------------------------------------------------------------Tier Two*/
+/*------------------------------------------------------------Tier Two*/
