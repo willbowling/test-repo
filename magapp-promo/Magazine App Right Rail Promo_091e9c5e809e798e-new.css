@@ -1,0 +1,143 @@
+.mag-app-promo {
+	margin:0 0 10px 0;
+	position:relative;
+	width:300px;
+}
+.mag-app-promo .top {
+	background:#FBFBFB;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-ms-border-radius: 4px 4px 0 0;
+	-o-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	height:4px;
+}
+.mag-app-promo .content {
+	background:#FBFBFB;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	min-height:170px;
+	padding:0 10px;
+}
+.mag-app-promo .btm {
+	background:#FBFBFB;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	height:4px;
+}
+.mag-app-promo h2, .mag-app-promo h3 {
+	color:#A03993;
+	font-weight:normal;
+	font-size:140%;
+	padding:18px 0 10px 0;
+	margin:0;
+}
+.mag-app-promo p {
+	margin:0;
+	padding:0 0 10px 0;
+	font-size:90%;
+}
+.mag-app-promo a {
+	position:absolute;
+	left:0;
+	top:6px;
+	height:224px;
+	width:300px;
+	background:url("../../../consumer_assets/site_images/modules/magazineapp/transparent.gif"); /* Prevents IE bug */
+}
+
+.mag-app-promo img.feature {
+	position:relative;
+	float:left;
+	top:-5px;
+	left:-11px;
+}
+.mag-app-promo .ad-notice {
+	background: url("../../../consumer_assets/site_images/modules/ad_lbl_trans.gif") no-repeat scroll 50% 0 transparent;
+	height: 5px;
+	width: 300px;
+	margin:1px 0;
+}
+.mag-app-promo p.cta {
+    position: relative;
+    top: -7px;
+}
+
+.vac-trkr-promo {
+	margin:0 0 10px 0;
+	position:relative;
+	width:300px;
+}
+.vac-trkr-promo .top {
+	background:#fff;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	height:4px;
+}
+.vac-trkr-promo .content {
+	background:#fff;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	min-height:170px;
+	padding:0 10px;
+}
+.vac-trkr-promo .btm {
+	background:#fff;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	height:4px;
+}
+.vac-trkr-promo h3 img {
+	display: block;
+	height: 17px;
+	margin-right: 20px;
+	width: 68px;
+}
+.vac-trkr-promo h3 {
+	color:#88a906;
+	font-weight:normal;
+	font-size:140%;
+	padding:18px 0 10px 0;
+	margin:0;
+}
+.vac-trkr-promo p {
+	margin:0;
+	padding:0 13px 10px 0;
+	font-size:13px;
+}
+.vac-trkr-promo a.webmd-btn {
+	margin-left: 119px;
+}
+
+.vac-trkr-promo a.overlay {
+	position:absolute;
+	left:0;
+	top:0;
+	height:224px;
+	width:300px;
+	background:url("../../../consumer_assets/site_images/modules/magazineapp/transparent.gif"); /* Prevents IE bug */
+}
+
+.vac-trkr-promo img.feature {
+	position:relative;
+	float:left;
+	top:-5px;
+	left:-11px;
+}
+
+
