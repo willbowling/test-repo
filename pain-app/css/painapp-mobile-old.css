@@ -1,0 +1,91 @@
+.td_dyn_nav {
+  clear: both;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f3f4f6));
+  background-image: -webkit-linear-gradient(#ffffff, #f3f4f6);
+  background-image: -moz-linear-gradient(#ffffff, #f3f4f6);
+  background-image: -o-linear-gradient(#ffffff, #f3f4f6);
+  background-image: -ms-linear-gradient(#ffffff, #f3f4f6);
+  background-image: linear-gradient(#ffffff, #f3f4f6);
+  color: #a6bf47;
+  font-size: 1.5em;
+  padding: 10px; }
+
+#pain-app {
+  margin: 0 auto;
+  padding: 0 30px;
+  background: url(../images/main-promo-640x653.jpg) top center no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto; }
+  #pain-app h1, #pain-app h2, #pain-app h3, #pain-app h4, #pain-app h5 {
+    padding: 10px 0 5px; }
+  #pain-app p {
+    padding: 5px 0 10px;
+    line-height: 1.3em;
+    font-size: 120%; }
+  #pain-app .intro_pain {
+    width: 100%;
+    height: 460px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    clear: both;
+    color: #383838; }
+    #pain-app .intro_pain .download {
+      display: block;
+      float: left;
+      margin: 270px 25px 0px 0px; }
+    #pain-app .intro_pain .store {
+      display: block;
+      float: right;
+      margin: 260px 45px 0px 0px; }
+  #pain-app .feature-list {
+    float: left;
+    clear: both; }
+    #pain-app .feature-list h2 {
+      color: #a6bf47;
+      font-weight: 600;
+      font-size: 220%; }
+    #pain-app .feature-list ul {
+      list-style-type: none;
+      margin: 30px 0 50px 70px; }
+      #pain-app .feature-list ul li {
+        list-style-image: url("http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/painapp_checkbtn.jpg");
+        -webkit-background-size: 70% auto;
+        -moz-background-size: 70% auto;
+        -o-background-size: 70% auto;
+        background-size: 70% auto;
+        background-position: 0 0 .5em 0;
+        padding-left: 15px;
+        font-size: 170%;
+        vertical-align: top;
+        line-height: 1.35em;
+        font-weight: 600;
+        color: #333;
+        text-shadow: 1px 1px 3px #cccccc; }
+  #pain-app .app-icon {
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin-top: 70px;
+    margin-left: 0; }
+
+.copyDesc {
+  clear: both; }
+  .copyDesc h3 {
+    color: #89a906;
+    font-weight: 600;
+    font-size: 2.3em; }
+  .copyDesc p {
+    color: #666;
+    font-size: 14px; }
+
+@media all and (max-device-width: 600px) {
+  .complicatedFunctionality {
+    display: none; }
+
+  .sidebar {
+    float: none;
+    width: auto; } }
+/* ---- FEATURES SECTION ---- */

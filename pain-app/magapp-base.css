@@ -1,0 +1,176 @@
+#mag_app_landing_top {
+	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-top.png) no-repeat top left;
+	height:4px;
+	width:967px;
+	clear:both;
+}
+#mag_app_landing {
+	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-bdy.png) repeat-x top left;
+	padding:0 40px 10px 40px;
+	width:887px;
+}
+#mag_app_landing .leftcol {
+	float:left;
+	width:380px;
+}
+#mag_app_landing .rightcol {
+	float:left;
+	width:467px;
+	margin:0 0 0 40px;
+}
+#mag_app_landing h1 {
+	color:#a23089;
+	font-weight:normal;
+	font-size:380%;
+	text-align:center;
+	margin:0;
+	padding:20px 0 10px 0;
+}
+#mag_app_landing h2 {
+	font-size:150%;
+	text-align:center;
+	margin:0 0 20px 0;
+	padding:0 0 20px 0;
+	border-bottom:1px solid #ccc;
+}
+#mag_app_landing h3 {
+	font-size:120%;
+	margin:0;
+	padding:0 0 20px 0;
+}
+#mag_app_landing p {
+	margin:0;
+	padding:0 0 15px 0;
+}
+#mag_app_landing .actionBtns {
+	margin:0 0 20px 0;
+}
+#mag_app_landing .actionBtns .AppStore {
+	float:left;
+}
+#mag_app_landing .actionBtns .Download {
+	float:right;
+	padding:3px 0 0 0;
+}
+#mag_app_landing .features {
+	padding:0;
+	margin:0;
+}
+#mag_app_landing .features li {
+	position:relative;
+	padding:0 0 15px 45px;
+	min-height:25px;
+	list-style: none;
+}
+#mag_app_landing .features p {
+	padding:0;
+	margin:0;
+}
+
+#mag_app_landing .features .icon {
+	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/sprite-bullets.png) no-repeat;
+	position:absolute;
+	left:0;
+	top:0;
+	width:33px;
+	height:33px;
+}
+#mag_app_landing .features .two .icon {background-position:0 -33px;}
+#mag_app_landing .features .three .icon {background-position:0 -66px;}
+#mag_app_landing .features .four .icon {background-position:0 -99px;}
+
+#mag_app_landing .bottom_link {
+	text-align:center;
+}
+#mag_app_landing .clr {
+	height:0;
+	clear:both;
+}
+#mag_app_footer {
+	position:relative;
+	width:980px;
+	left:-7px;
+}
+#mag_app_footer .divider {
+	position:relative;
+	border-bottom:2px solid #ccc;
+	margin:0 0 2px 0;
+	height:0;
+}
+#mag_app_footer .cross-promo {
+	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-ftr.png) repeat-x top left;
+	height:50px;
+}
+#mag_app_footer .cross-promo a {
+	display:block;
+	text-align:right;
+	padding:20px 50px 0 0;
+	font-weight:bold;
+	font-size:120%;
+}
+#mag_app_footer .cross-promo a span {
+	height:0;
+	display:inline-block;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #006699;
+	border-top: 5px solid transparent;
+	margin: 0px 0 0 5px;
+}
+/* Slideshow */
+#mag_app_landing .slideshow {
+	position:relative;
+ 	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/iPad_Chrome.jpg) no-repeat;
+	width:346px;
+	height:447px;
+	margin:0 60px 20px 60px;
+	padding:0 0 30px 0;
+}
+#mag_app_landing .slidebox {
+	position:absolute;
+	left:40px;
+	top:42px;
+	width:266px;
+	height:362px;
+}
+#mag_app_landing .slideshow .btn {
+	display: block;
+	position:absolute;
+	top:44%;
+ 	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/sprite-ss_btn.png) no-repeat bottom left;
+ 	width:52px;
+ 	height:52px;
+}
+#mag_app_landing .slideshow .btn.prev {
+	left:-60px;
+}
+#mag_app_landing .slideshow .btn.next {
+	background-position: top left;
+	right:-60px;
+}
+#mag_app_landing .slideshow .indicator {
+	position: absolute;
+	bottom:0;
+	left:120px;
+	padding:0;
+	margin:0;
+}
+#mag_app_landing .slideshow .indicator li {
+	float: left;
+ 	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/sprite-ss_indicator.png) no-repeat top left;
+ 	width:9px;
+ 	height:8px;
+ 	list-style: none;
+ 	margin:0 0 0 10px;
+}
+#mag_app_landing .slideshow .indicator li.on {
+	background-position: bottom left;
+}
+
+#mag_app_landing .free-dl {
+	display:block;
+	background:url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/btnDownload.png) no-repeat top left;
+	width:179px;
+	height:40px;
+}
+
+

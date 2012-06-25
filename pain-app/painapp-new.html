@@ -1,0 +1,152 @@
+<div id="wrapper">
+	<div id="container">
+		<div class="hc_header">
+			<h1>WebMD Pain Coach App</h1>
+		</div>
+		<div class="intro_pain">
+			<div>
+				<a href="http://itunes.com/apps/webmdpaincoach" onclick="return sl(this,'','lnch-pain-app_1');" class="action-items"><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/nl/blank_image.gif" style="width:220px;height:25px;margin: 380px 0px 0px 50px;"/></a>
+				<a href="http://itunes.com/apps/webmdpaincoach" onclick="return sl(this,'','lnch-pain-app_2');" class="action-items"><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/nl/blank_image.gif" style="width: 180px;height:25px;margin: 0px 0px 0px 130px;"/></a>
+			</div>
+		</div>
+
+<!-- overlay for buttons -->
+    <div class="clr clearfix"></div>
+    <!-- copy -->
+    <div class="listContainer">
+
+    <h2>Designed Specifically for</h2>
+    <ul>
+    <li>Back Pain</li>
+    <li>Fibromyalgia</li>
+    <li>Migraine</li>
+    <li>Neck Pain</li>
+
+    <li>Nerve Pain</li>
+    <li>Osteoarthritis</li>
+    <li>Rheumatoid Arthritis</li>
+    <li>General Pain Management</li>
+    </ul>
+  </div>
+    <div class="copyContainer">
+    </div>
+
+      <!-- copy -->
+    <div style="clear:both"></div>
+    <div class="copyDesc">
+    <h3>The FREE WebMD Pain Coach app</h3>
+    <p>allows you to easily monitor and track your pain level on scale of 1 to 10, treatments, mood, and much more.
+    There isn't an easy fix for chronic pain, but if you know what triggers to avoid and what treatments really work, you can manage your pain more effectively.</p>
+    <p>The FREE app features over 1,000 medically reviewed and doctor-approved articles, tips, goals, slideshows and videos related to your condition.</p>
+    <h3>Need some additional motivation?</h3>
+
+    <p>WebMD Pain Coach delivers a new doctor-approved tip for your specific condition each day!</p>
+    </div>
+        <div id="feature_vid_rdr">
+		<div class="works_rdr">
+			<div class="hc_header">
+			<a href="" onclick="return sl(this,'nw','painapp_1');">
+				<span class="vid_rdr"><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/vid_works_pain.jpg" alt="pain coach video" /></span><br />
+ 				<span class="vid_txt">Access hundreds of articles and videos developed and approved by WebMD doctors.<em class="ico"></em></span>
+
+			</a>
+		</div>
+</div>
+</div>
+
+<!-- slider code -->
+<div id="app_slide_main_rdr">
+	<div id="app_slide_rdr">
+		<div class="ss">
+			<div class="slide">
+				<p><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/pain-app-slide1.jpg" alt="WebMD Pain Coach App"/></p>
+
+			</div>
+			<div class="slide">
+				<p><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/pain-app-slide2.jpg" alt="WebMD Pain Coach App" /></p>
+			</div>
+			<div class="slide">
+				<p><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/pain-app-slide3.jpg" alt="WebMD Pain Coach App" /></p>
+			</div>
+			<div class="slide">
+				<p><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/pain-app-slide4.jpg" alt="WebMD Pain Coach App" /></p>
+
+			</div>
+	</div>
+	</div>
+	<div id="circles">
+	</div>
+	<div id="arrow_nav">
+		<a href="" id="arrow_prev"><span></span></a>
+		<a href="" id="arrow_next"><span></span></a>
+	</div>
+
+</div>
+
+<div class="CrossPromo">
+	<h2><a href="/mobile">See All WebMD Apps<span></span></a></h2>
+</div></div>
+	</div>
+<script language="JavaScript1.2" type="text/javascript">
+webmd.m.mobilePainSwipe=webmd.object(webmd.m.swipeshow,{
+
+	/* gets called after init by webmd.m.swipeshow */
+	dSlides:function() {
+		this._buildNav();
+		this._setNav();
+		return this;
+	},
+
+	/* gets called after every slide transition by webmd.m.swipeshow */
+	fAfter:function(){
+		this._setNav();
+		return this;
+	},
+
+	_buildNav:function(){
+		var self=this;
+		var slides = $('.slide','#app_slide_rdr');
+
+		$(slides).each(function(){
+			$('<span class="circle">&nbsp;</span>').appendTo('#circles');
+		});
+
+		//todo: set proper omniture vals
+		$("#arrow_prev").click(function(e){e.preventDefault(); self.trans("-1"); clearInterval(self._autoInterval); wmdPageLink('ss_prev'); return false;});
+		$("#arrow_next").click(function(e){e.preventDefault(); self.trans("+1"); clearInterval(self._autoInterval); wmdPageLink('ss_next'); return false;});
+	},
+
+
+	/* gets called by dSlides, which is called at the end of init and by fAfter */
+	_setNav:function(){
+		var current = this.current
+		var circles = $('#circles').find('.circle');
+		circles.each(function(i){
+			if(i == [current]){
+				$(this).addClass('circle_on');
+			}else{
+				$(this).removeClass('circle_on');
+			}
+		});
+
+		$("a","#arrow_nav").show();
+		if(this.current == 0) {
+			$("#arrow_prev").hide();
+		}
+		if((this.current+1) == this.slides.length) {
+			$("#arrow_next").hide();
+		}
+	}
+});
+
+$(function() {
+	$("#app_slide_rdr .ss").each(function(){
+		var ss=webmd.object(webmd.m.mobilePainSwipe,{container:this});
+		ss.init();
+		// wakes up iphone so it responds to swipes faster
+		ss.resetOrientation();
+		ss.trans('0');
+	})
+});
+
+</script>

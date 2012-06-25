@@ -1,0 +1,1123 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width:   (property)"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"bloc",
+				"block"
+			],
+			[
+				"w-",
+				"w-wrmod	Revealing Module Patttern"
+			],
+			[
+				"list-styl",
+				"list-style-type:   (property)"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-variant:   (property)"
+			],
+			[
+				"arial",
+				"Verdana, Geneva, Arial, Helvetica, sans-serif"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"slide",
+				"slide0"
+			],
+			[
+				"intr",
+				"introSlideDone"
+			],
+			[
+				"hide",
+				"hideNav"
+			],
+			[
+				"icon",
+				"icon-1"
+			],
+			[
+				"supre",
+				"supreme-nav"
+			],
+			[
+				"slideshow",
+				"Slideshow"
+			],
+			[
+				"move",
+				"moveSlide"
+			],
+			[
+				"sup",
+				"supreme-nav"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"cur",
+				"currentImgSrc"
+			],
+			[
+				"navIcon",
+				"navIconOn"
+			],
+			[
+				"nav",
+				"navIcon"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"blue",
+				"blue"
+			],
+			[
+				"color",
+				"color3"
+			],
+			[
+				"h1",
+				"h1-color"
+			],
+			[
+				"word",
+				"word-wrap"
+			],
+			[
+				"answer",
+				"answer-input"
+			],
+			[
+				"hear",
+				"Heartburn"
+			],
+			[
+				"babyapp",
+				"BabyApp"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"rot",
+				"rotation-point"
+			],
+			[
+				"ins",
+				"inset"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"list",
+				"list	list-style: type position image"
+			],
+			[
+				"border-r",
+				"webkit-border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "babyapp-base.html",
+			"settings":
+			{
+				"buffer_size": 7082,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/painapp.scss",
+			"settings":
+			{
+				"buffer_size": 13266,
+				"line_ending": "Unix",
+				"name": "#wrapper"
+			}
+		},
+		{
+			"file": "babyapp-base.css",
+			"settings":
+			{
+				"buffer_size": 12482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "painapp-preview.html",
+			"settings":
+			{
+				"buffer_size": 32180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/painapp.css",
+			"settings":
+			{
+				"buffer_size": 11784,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"book",
+				"Bookmarks: Select Next"
+			],
+			[
+				"Snippet: w-",
+				"Snippet: w-Webmd Url"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"synt",
+				"Set Syntax: CSS"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"tod",
+				"Show TODOs: Open files only"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch"
+			],
+			[
+				"snippet",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <script>"
+			],
+			[
+				"pack",
+				"Package Control: Add Channel"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"fe",
+				"Fetch"
+			],
+			[
+				"fetc",
+				"Fetch"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 597.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wbowling/github/site-ops-projects/pain-app/css/babyapp-base.css",
+		"/Users/wbowling/.gitconfig",
+		"/Users/wbowling/github/site-ops-projects/pain-app/css/painapp.css",
+		"/Users/wbowling/github/site-ops-projects/pain-app/painapp-new.html",
+		"/Users/wbowling/github/site-ops-projects/pain-app/config.rb",
+		"/Users/wbowling/github/site-ops-projects/pain-app/babyapp-base.css",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/wbowling/github/site-ops-projects/magazineapp-new.html",
+		"/Users/wbowling/github/site-ops-projects/magazineapp-promo-preview.html",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML/Magazine App Right Rail Promo_091e9c5e809e798e-new.css",
+		"/Users/wbowling/github/site-ops-projects/magazineapp-preview.html",
+		"/Users/wbowling/github/site-ops-projects/magazineapp-promo-new.html",
+		"/Users/wbowling/github/site-ops-projects/magazineapp-promo-old.html",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML/Magazine App Right Rail Promo_091e9c5e809e798ew.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML/Magazine App Right Rail Promo_091e9c5e809e798e-web.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML/Magazine App Right Rail Promo_091e9c5e809e798e-bak.css",
+		"/Users/wbowling/github/site-ops-projects/magazineapp.sublime-project",
+		"/Users/wbowling/github/site-ops-projects/config.rb",
+		"/Users/wbowling/github/site-ops-projects/magazineapp-new.css",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/WebMD-Snippets/w-cssie7.sublime-snippet",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/WebMD-Snippets/w-On Document Ready.sublime-snippet",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/WebMD-Snippets/webmd.regexMatch.sublime-snippet",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/WebMD-Snippets/webmd.substitute.sublime-snippet",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/WebMD-Snippets/webmd overlay.sublime-snippet",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/JS/tools/dsppixels-new.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/JS/tools/dsppixels.min.js",
+		"/Users/wbowling/github/scripts.js/src/core/webmd.m.dsppixels.js",
+		"/Users/wbowling/Downloads/18012_nf_bottom.inc",
+		"/Users/wbowling/Dropbox/config",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/wbowling/Downloads/18012_nf_bottom (1).inc",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/wbowling/github/will-bowling-repo/portfolio-dev/source/layouts/will_05.slim",
+		"/Users/wbowling/github/responsive-lab/.git/COMMIT_EDITMSG",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_featured_articles.slim",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_left_col.slim",
+		"/Users/wbowling/github/responsive-lab/README.md",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_ad_right.slim",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_top_trends.slim",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_community.slim",
+		"/Users/wbowling/github/responsive-lab/source/assets/css/theme/will/base.css.scss",
+		"/Users/wbowling/github/responsive-lab/config.rb",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_left-col.slim",
+		"/Users/wbowling/github/responsive-lab/source/assets/css/theme/will/partials/_tablet_variables.scss",
+		"/Users/wbowling/github/responsive-lab/source/assets/css/theme/will/partials/_variables.scss",
+		"/Users/wbowling/dev/demo_middleman/source/index.html.slim",
+		"/Users/wbowling/github/responsive-lab/source/assets/css/theme/will/partials/_desktop_variables.scss",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_news.slim",
+		"/Users/wbowling/github/responsive-lab/data/settings.yml",
+		"/Users/wbowling/github/responsive-lab/source/assets/js/script.js",
+		"/Users/wbowling/dev/demo_middleman/source/layouts/default.slim",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/left-col.slim",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_search.slim",
+		"/Users/wbowling/github/responsive-lab/source/partials/content/_login.slim",
+		"/Users/wbowling/github/responsive-lab/build/assets/css/theme/will/style.v5.css.scss",
+		"/Users/wbowling/github/responsive-lab/build/index.html",
+		"/Users/wbowling/github/responsive-lab/source/assets/css/theme/will/style.v4.css.scss",
+		"/Users/wbowling/github/responsive-lab/source/pages/homepage.html.slim",
+		"/Users/wbowling/github/responsive-lab/source/layouts/layout_01.slim",
+		"/Users/wbowling/github/responsive-lab/build/assets/css/theme/will/style.v5.css",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/v4-nocp.html",
+		"/Volumes/wwwroot/responsive/dev-will/v4.html",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/v4.1.html",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/scss/style.v4.1.scss",
+		"/Volumes/wwwroot/responsive/dev-will/scss/style.v4.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/scss/partials/_grid.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/scss/style.v3.scss",
+		"/Users/wbowling/Downloads/twigkit-semantic.gs-22e0e79/examples/responsive/responsive.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/config.rb",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/tom-structure.html",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/v3.html",
+		"/Users/wbowling/Downloads/twigkit-semantic.gs-22e0e79/examples/responsive/responsive.html",
+		"/Users/wbowling/.gitignore",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/scss/flat.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/scss/style.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/scss/wires.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/index.html",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/scss/_h5mbp.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/middleman/source/index.html",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/middleman/source/css/style.css.scss",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/middleman/config.rb",
+		"/Volumes/Inetpub/wwwroot/responsive/dev-will/middleman/source/css/style.css",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/will/style.scss",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/new html/peripheral-modules.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/new html/0-0_default.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/new html/1-1_about-treatment.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/new html/1-3_important-risk-information.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/new html/1-4_taking-treatment.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/new html/1-5_frequently-asked-questions.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/new html/2-1_about-fibromyalgia.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/vic/1-5_frequently-asked-questions.html",
+		"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/will/3-1_working-with-doctor.html",
+		"/Users/wbowling/github/my_portfolio/config.rb",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/css/sass/page-style.scss",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/css/compiled/template1.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/index.html",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/content/_form.php",
+		"/Users/wbowling/github/portfolio/.git/COMMIT_EDITMSG",
+		"/Volumes/Design/Public/ClientReview/Lotrimin/HZinMotion/lotrimin_health_zone_multi_video.wxml",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/sass/healthy-beauty.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/sass/_slideshow-header.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/12-03-19-module-backup.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/compiled/healthy-beauty.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/sass/healthy-beauty.bak.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy-beauty-backup-original.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-dark-orig.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/compiled/sorted-styles.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/conversion/dynamic-slideshow-healthy-beauty-orig.scss.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/conversion/dynamic-slideshow-healthy-beauty-min.css",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/css/sass/page-style.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-2col-sponsored.xsl",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-dark.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-dark-min.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/compare-top.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy-beauty-bak-01.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-healthy-beauty-min.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy_beauty_sponsored-merged.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/hb-min-orig.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy-beauty-aggr.css",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/css/compiled/page-style.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/css/forpub.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/forpub.html",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/admin/changepswd.php",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/admin/login.php"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".action-items",
+			";\n",
+			"intro",
+			"vac-trkr-promo",
+			"turn2",
+			"turn2_beacon",
+			"plugins",
+			"slow",
+			"slow plugins",
+			"detect",
+			"slow",
+			"@",
+			"<h3>",
+			"</h3>",
+			"</p>",
+			"<p>",
+			"@import 'partials/h5mbp';",
+			"<img src=\"\" alt=\"\" />",
+			"product_solutions",
+			"what is fi",
+			"square-bullet",
+			"3x3_grey_bullet.gif",
+			"healthy_beauty_slideshow_bottom",
+			"flourish_trim_clr.gif",
+			"3x3_grey_bullet.gif",
+			"icm_links_text",
+			"icm_spbox",
+			"topline",
+			"leftline",
+			"rightline",
+			"/* corners ",
+			"/* CSS3 */",
+			"icm_short_text",
+			"	.",
+			".browserIE #breadcrumb_ctr .titleBarRight_fmt {\n	top: 27px; }\n",
+			"/* CSS3 */",
+			".icm ",
+			"$",
+			".final_text_slide h2",
+			"@include",
+			"@impo",
+			"topline",
+			"rightline",
+			"  ",
+			"//  web - ",
+			"// web - ",
+			"left_corner",
+			"topline",
+			"bottomline",
+			".final_text_slide li{background:none;border:none;color:#414141;}",
+			"icm_short_text_wrapper",
+			".thumb",
+			".thumb{background:url(../../../consumer_assets/site_images/modules/icm/topline.gif) repeat-x top left;float:left;width:123px;}",
+			"#slideshow {",
+			"#slideshow{",
+			"bottom_left",
+			"corner",
+			"top_right",
+			"right.gif",
+			"final_text_slide ul",
+			"final_text_slide",
+			"3x3_grey_bullet",
+			"_height",
+			"#breadcrumb_ctr #slideshow_container #slideshow .icm_spbox",
+			".icm_wrapper .isi.popover",
+			"60%",
+			"35%",
+			"85%",
+			"app_slide_rdr",
+			"cdn.optimi",
+			"as.webmd.com",
+			"script",
+			"snippet",
+			"”",
+			"“",
+			"’",
+			"”",
+			"“",
+			"restore_settings",
+			"customi",
+			"function totalScore",
+			"totalScore",
+			"setFitQPoints",
+			"<script",
+			"score",
+			"scorin",
+			"dailyScore",
+			"onTopScoresUpdated",
+			"label",
+			"top_picks",
+			"pattern|title",
+			"pattern | title",
+			"user-select",
+			"-moz-user-select",
+			"required",
+			"select",
+			"error",
+			"topbar-inner",
+			"icon-plus-sign",
+			"url",
+			"image",
+			"nav",
+			"oslink",
+			" oslink",
+			"alt=\"\"",
+			"hrttho",
+			"hrt",
+			"cold",
+			"articleTools",
+			"attribute",
+			"article",
+			"18",
+			"®",
+			"&rdquo;",
+			"&ldquo;",
+			"&rsquo;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"magapp-promo",
+			"<p>",
+			"</p>",
+			"</h3>",
+			"<h3>",
+			"/* corners */",
+			"    ",
+			" ",
+			"",
+			"50%",
+			"$color-stop%",
+			"60%",
+			"35%",
+			"\"",
+			"'",
+			"&reg;",
+			"\"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "babyapp-base.html",
+					"settings":
+					{
+						"buffer_size": 7082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								937
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 46.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/painapp.scss",
+					"settings":
+					{
+						"buffer_size": 13266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1929,
+								1929
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "#wrapper",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 834.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "babyapp-base.css",
+					"settings":
+					{
+						"buffer_size": 12482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2098,
+								6103
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2347.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "painapp-preview.html",
+					"settings":
+					{
+						"buffer_size": 32180,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										10764,
+										10764
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								12624,
+								12624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3475.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/painapp.css",
+					"settings":
+					{
+						"buffer_size": 11784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 161.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.443548387097,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"source/pages/homepage.html.slim"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/WebServices/Public/PageBuilder/sponsored_programs/forest/savella/will/savella-will-dev.sublime-project"
+			],
+			[
+				"sup",
+				"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/supreme-court.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true
+}
