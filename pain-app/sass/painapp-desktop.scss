@@ -1,110 +1,62 @@
-#mag_app_landing_top {
-	background: url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-top.png) no-repeat top left;
-	height: 4px;
-	width: 967px;
-	clear: both; }
+@import 'compass/css3';
+$green: #8aa700;
+
+// #mag_app_landing_top {
+// 	background: url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-top.png) no-repeat top left;
+// 	height: 4px;
+// 	width: 967px;
+// 	clear: both; }
 
 .pain-app {
 	// background: url(../../../consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-bdy.png) repeat-x top left;
-	padding: 0 40px 10px 40px;
-	width: 887px;
+	padding: 40px 40px 10px 40px;
+	clear:both;
+	width: 897px;
+	border-top: 1px solid #a8a8a8;
+	@include background(linear-gradient(#f0f0f0 0%, white 10%));
 	.leftcol {
 		float: left;
 		width: 490px;
-		clear:left ; }
+		clear:left ;
+		line-height:20px;
+		h1 {
+			text-indent: -5000px;
+			background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/painapp-heading.gif);
+			height: 158px;
+			padding:0;
+			margin: 0px 0 35px;
+		}
+		h2 {
+			color: $green;
+			font-size: 24px;
+		}
+		p {
+			margin: 0 0 20px 0;
+			font-size: 120%;
+			color: #333;
+			line-height: 25px;
+			padding: 0 0 15px 0; }
+		a.action-items {
+			display: block;
+			text-align:center;
+			margin: 0 auto 60px;
+		}
+		img.stats {
+			margin: 0 auto 0 40px;
+		}
+	}
 	.rightcol {
 		float: left;
 		width: 330px;
 		margin: 0 0 0 40px; }
-	h1 {
-		color: #a23089;
-		font-weight: normal;
-		font-size: 380%;
-		text-align: center;
-		margin: 0;
-		padding: 20px 0 10px 0; }
-	h2 {
-		font-size: 150%;
-		text-align: center;
-		margin: 0 0 20px 0;
-		padding: 0 0 20px 0;
-		border-bottom: 1px solid #ccc; }
-	h3 {
-		font-size: 120%;
-		margin: 0;
-		padding: 0 0 20px 0; }
-	p {
-		margin: 0;
-		padding: 0 0 15px 0; }
-	.actionBtns {
-		margin: 0 0 20px 0;
-		.AppStore {
-			float: left; }
-		.Download {
-			float: right;
-			padding: 3px 0 0 0; } }
-	.features {
-		padding: 0;
-		margin: 0;
-		li {
-			position: relative;
-			padding: 0 0 15px 45px;
-			min-height: 25px;
-			list-style: none; }
-		p {
-			padding: 0;
-			margin: 0; }
-		.icon {
-			background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/miscellaneous/mag_app_landing/sprite-bullets.png) no-repeat;
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 33px;
-			height: 33px; }
-		.two .icon {
-			background-position: 0 -33px; }
-		.three .icon {
-			background-position: 0 -66px; }
-		.four .icon {
-			background-position: 0 -99px; } }
-	.bottom_link {
-		text-align: center; }
-	.clr {
-		height: 0;
-		clear: both; } }
 
-#mag_app_footer {
-	position: relative;
-	width: 980px;
-	left: -7px;
-	.divider {
-		position: relative;
-		border-bottom: 2px solid #ccc;
-		margin: 0 0 2px 0;
-		height: 0; }
-	.cross-promo {
-		background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-ftr.png) repeat-x top left;
-		height: 50px;
-		a {
-			display: block;
-			text-align: right;
-			padding: 20px 50px 0 0;
-			font-weight: bold;
-			font-size: 120%;
-			span {
-				height: 0;
-				display: inline-block;
-				border-bottom: 5px solid transparent;
-				border-left: 5px solid #006699;
-				border-top: 5px solid transparent;
-				margin: 0px 0 0 5px; } } } }
+/**
+ * Slideshow Styles
+ */
 
-/* Slideshow */
-
-.pain-app {
 	.slideshow {
 		position: relative;
-		background: url(../images/painapp-iphone-bg.png) 0 0 no-repeat;
+		background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/painapp-iphone-bg.png) 0 0 no-repeat;
 		width: 254px;
 		height: 520px;
 		margin: 0 60px 20px 60px;
@@ -143,9 +95,196 @@
 				list-style: none;
 				margin: 0 0 0 10px;
 				&.on {
-					background-position: bottom left; } } } }
-	.free-dl {
-		display: block;
-		background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/miscellaneous/mag_app_landing/btnDownload.png) no-repeat top left;
-		width: 179px;
-		height: 40px; } }
+					background-position: bottom left; } } }
+	}
+}
+
+
+.bottom-gradient {
+	@include background(linear-gradient(bottom center, #f0f0f0, white));
+	height: 40px;
+	border-bottom: 1px solid #a8a8a8;
+}
+
+.pain-app, .bottom-gradient, .cross-promote {
+	margin:0 -9px 0 -6px;
+	// width: 897px;
+}
+
+
+/**
+ *
+ * Video Styles &
+ * Styles for lower content.
+ *
+ */
+
+.vidplayer_box_rdr {
+// configurable vid player xsl
+// default css
+//
+
+// webmd.m.vpVars.config = '/webmd/consumer_assets/videos/editorial/painapp/pain-coach-app.wxml';
+
+	// border: 1px dashed #333;
+	// width: 440px;
+	// height: 360px;
+	// margin: 20px auto;
+
+	float:left;
+	margin-left: 14px;
+	margin: 25px 0 30px 14px;
+
+}
+
+.feature-list {
+	float:right;
+	width: 440px;
+	margin-right:20px;
+	// border: 1px solid #666;
+	h2 {
+		color:$green;
+		font-size: 24px;
+	}
+	.app-icon {
+		float: right;
+		width: 180px;
+	}
+	ul {
+			list-style-type: none;
+			padding: 0 0 0 20px;
+			margin: 10px 0 20px 0;
+			li {
+				// list-style-image: url("http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/painapp_checkbtn.jpg");
+				background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/painapp_checkbtn.jpg) 0 0 no-repeat;
+				@include background-size(25px);
+				padding: 0 0 15px 45px;
+				font-size: 140%;
+				vertical-align: top;
+				line-height: 1.2em;
+				font-weight: normal;
+				// color: #666;
+				@include text-shadow(1px 1px 3px #a8a8a8);
+			}
+		}
+}
+
+.pain-app-features {
+	clear: both;
+	margin: 10px 14px;
+	color: #333;
+	h2 {
+		color:$green;
+		font-size: 24px;
+	}
+	h3 {
+		color:$green;
+		font-size: 24px;
+		margin-bottom:0;
+	}
+	p {
+		font-size: 130%;
+		margin-top: 10px;
+	}
+	ul.more {
+		list-style-type: none;
+		margin: 10px 20px 20px 10px;
+		padding-left: 10px;
+		li {
+			font-size: 130%;
+			background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/mobile/pain_app/star.gif) 0 0 no-repeat;
+			@include background-size(3%);
+			padding: 0 0 15px 35px;
+			vertical-align: text-top;
+			// color: #666;
+		}
+	}
+}
+
+
+.cross-promote {
+	clear: both;
+	// margin: 30px 14px 20px;
+	padding:0 30px 20px;;
+	margin-top: 30px;
+	min-height:250px;
+	color: #333;
+	border-top: 1px solid #a8a8a8;
+	@include background(linear-gradient(#f0f0f0 0%, white 50%));
+	h2 {
+		color: $green;
+		font-size: 30px;
+		font-weight: normal;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 0;
+		a {
+			float:right;
+			font-size:18px;
+			display:block;
+			margin-top: 12px;
+		}
+	}
+	.other-apps {
+		text-align: center;
+		margin-top: 0;
+		padding-top:0;
+		margin-left: 17%;
+		a {
+			display: block;
+			float: left;
+			margin: 10px;
+			text-align:center;
+			color: #333;
+			font-weight: bold;
+			img {margin-right:12px;}
+			span{
+				display:block;
+				clear:both;
+				text-align:center;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+// #mag_app_footer {
+// 	position: relative;
+// 	width: 980px;
+// 	left: -7px;
+// 	.divider {
+// 		position: relative;
+// 		border-bottom: 2px solid #ccc;
+// 		margin: 0 0 2px 0;
+// 		height: 0; }
+// 	.cross-promo {
+// 		background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/miscellaneous/mag_app_landing/bgMagApp-ftr.png) repeat-x top left;
+// 		height: 50px;
+// 		a {
+// 			display: block;
+// 			text-align: right;
+// 			padding: 20px 50px 0 0;
+// 			font-weight: bold;
+// 			font-size: 120%;
+// 			span {
+// 				height: 0;
+// 				display: inline-block;
+// 				border-bottom: 5px solid transparent;
+// 				border-left: 5px solid #006699;
+// 				border-top: 5px solid transparent;
+// 				margin: 0px 0 0 5px; } } } }
+
+// /* Slideshow */
+
+// .pain-app {
+//  }
+// .free-dl {
+// 	display: block;
+// 	background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/miscellaneous/mag_app_landing/btnDownload.png) no-repeat top left;
+// 	width: 179px;
+// 	height: 40px;
+// }
